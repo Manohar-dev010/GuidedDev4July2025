@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "723566aa-44f0-475a-b0e0-e1f430e7cc1a",
+    "Name": "UsrTest_ListPage",
+    "ModifiedOnUtc": "\/Date(1751635152000)\/",
+    "Parent": {
+      "UId": "b7b898d0-8c77-4953-c097-23fa6800da02",
+      "Name": "ListPageV3Template"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Test list page",
+    "DependsOn": []
+  }
+}
