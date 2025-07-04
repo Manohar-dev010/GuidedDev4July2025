@@ -1,0 +1,82 @@
+{
+  "SkeletonLoader": {
+    "Loading": "In caricamento..."
+  },
+  "CopyClipboard": {
+    "Copied": "Copiato"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Niente da mostrare ancora ",
+      "Subhead": "Si prega di aggiungere i dati prima"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Chat iniziata: {0} da",
+        "EndDate": "Chat completata: {0} da"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "In caricamento"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Errore",
+      "Default": "Suggerimento"
+    }
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Seleziona il valore dalla lista",
+      "SelectionWindowMessage": "Seleziona il valore dalla lista o cercalo usando la finestra di lookup"
+    },
+    "Required": {
+      "Message": "Inserisci un valore"
+    },
+    "MaxLength": {
+      "Message": "Lunghezza massima del testo superata ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Lunghezza minima del testo non raggiunta ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Formato data e ora non valido"
+    },
+    "DatePickerSyntax": {
+      "Message": "Formato data non valido"
+    },
+    "TimePickerSyntax": {
+      "Message": "Formato orario non valido"
+    },
+    "RegExp": {
+      "Message": "Formato valore non valido"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Il codice deve iniziare con il prefisso {{schemaNamePrefix}}.",
+      "OnlySchemaNamePrefixMessage": "Inserisci almeno un altro simbolo."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Usa i simboli: a-z, A-Z, 0-9, trattino basso o trattino. Solo le lettere possono essere le prime."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "The value '{{controlValue}}' already exists in the 'Code' column."
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Colonna rimossa",
+    "ValidationErrorMessageSingleErrorField": "Campo: {0}. Errore: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Campi: {0}. Errore: {1}",
+    "RefreshModelDataConflict": "Creatio ha nuovi dati per la pagina corrente. Per visualizzarli, salva o annulla le modifiche e aggiorna la pagina.",
+    "WarningModelsWithCircularDependencies": "Alcuni modelli hanno dipendenze circolari e non sono stati caricati",
+    "LoadingModelErrorMessage": "Errore durante l'esecuzione della query"
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Data has been refreshed"
+  },
+  "Dialog": {
+    "ProcessSchemaSavedWithValidationError": "Lo schema del processo è stato salvato con successo, ma gli errori di convalida impediscono l'esecuzione."
+  }
+}

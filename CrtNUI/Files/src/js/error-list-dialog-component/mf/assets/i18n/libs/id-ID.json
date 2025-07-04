@@ -1,0 +1,82 @@
+{
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Silakan pilih nilai dari daftar",
+      "SelectionWindowMessage": "Pilih nilai dari daftar atau cari menggunakan jendela pencarian"
+    },
+    "Required": {
+      "Message": "Masukkan nilai"
+    },
+    "MaxLength": {
+      "Message": "Panjang teks maksimum terlampaui ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Panjang teks minimum tidak tercapai ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Format tanggal dan waktu tidak valid"
+    },
+    "DatePickerSyntax": {
+      "Message": "Format tanggal tidak valid"
+    },
+    "TimePickerSyntax": {
+      "Message": "Format waktu tidak valid"
+    },
+    "RegExp": {
+      "Message": "Format nilai tidak valid"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Kode harus dimulai dengan awalan {{schemaNamePrefix}}.",
+      "OnlySchemaNamePrefixMessage": "Masukkan minimal satu simbol lagi."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Gunakan simbol: a-z, A-Z, 0-9, garis bawah atau tanda hubung. Hanya huruf yang bisa menjadi yang pertama."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "The value '{{controlValue}}' already exists in the 'Code' column."
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Kolom dihapus",
+    "ValidationErrorMessageSingleErrorField": "Bidang {0}. Kesalahan: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Bidang {0}. Kesalahan: {1}",
+    "RefreshModelDataConflict": "Creatio memiliki data baru untuk halaman saat ini. Untuk melihatnya, simpan atau batalkan perubahan Anda dan perbarui halaman.",
+    "WarningModelsWithCircularDependencies": "Beberapa model memiliki referensi melingkar dan belum dimuat",
+    "LoadingModelErrorMessage": "Error occurred during the query execution"
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Data has been refreshed"
+  },
+  "SkeletonLoader": {
+    "Loading": "Memuat..."
+  },
+  "CopyClipboard": {
+    "Copied": "Disalin"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Belum ada yang bisa ditampilkan ",
+      "Subhead": "Silakan tambahkan data terlebih dahulu"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Obrolan dimulai: {0} oleh",
+        "EndDate": "Obrolan selesai: {0} oleh"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Memuat"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Error",
+      "Default": "Tooltip"
+    }
+  },
+  "Dialog": {
+    "ProcessSchemaSavedWithValidationError": "Skema proses berhasil disimpan, tetapi kesalahan validasi mencegahnya untuk dijalankan."
+  }
+}

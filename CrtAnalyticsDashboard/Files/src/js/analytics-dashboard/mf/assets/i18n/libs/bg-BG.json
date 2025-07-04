@@ -1,0 +1,82 @@
+{
+  "SkeletonLoader": {
+    "Loading": "Зареждане..."
+  },
+  "CopyClipboard": {
+    "Copied": "Копирано"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Още няма нищо за показване ",
+      "Subhead": "Моля, първо добави данни"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Чатът започна: {0} от",
+        "EndDate": "Чатът е завършен: {0} от"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Зареждане"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Грешка",
+      "Default": "Подсказка"
+    }
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Моля, избери стойност от списъка",
+      "SelectionWindowMessage": "Моля, избери стойност от списъка или потърси с помощта на прозореца за справка"
+    },
+    "Required": {
+      "Message": "Въведи стойност"
+    },
+    "MaxLength": {
+      "Message": "Превишена е максималната дължина на текста ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Минималната дължина на текста не е достигната ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Невалиден формат за дата и час"
+    },
+    "DatePickerSyntax": {
+      "Message": "Невалиден формат на датата"
+    },
+    "TimePickerSyntax": {
+      "Message": "Невалиден формат на часа"
+    },
+    "RegExp": {
+      "Message": "Невалиден формат на стойността"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Кодът трябва да започва с префикса {{schemaNamePrefix}}.",
+      "OnlySchemaNamePrefixMessage": "Въведи поне още един символ."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Използвай символи: a-z, A-Z, 0-9, долна черта или тире. Първи могат да бъдат само букви."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "Стойността '{{controlValue}}' вече съществува в колоната 'Код'."
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Колоната е премахната",
+    "ValidationErrorMessageSingleErrorField": "Поле: {0}. Грешка: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Полета: {0}. Грешка: {1}",
+    "RefreshModelDataConflict": "Creatio има нови данни за текущата страница. За да го видиш, запази или анулирай промените си и опресни страницата.",
+    "WarningModelsWithCircularDependencies": "Някои модели имат кръгови зависимости и не са заредени",
+    "LoadingModelErrorMessage": "Възникна грешка по време на изпълнение на заявката"
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Данните бяха опреснени"
+  },
+  "Dialog": {
+    "ProcessSchemaSavedWithValidationError": "Схемата на процеса е запазена успешно, но грешки при проверката не позволяват изпълнението й."
+  }
+}

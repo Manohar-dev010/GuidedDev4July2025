@@ -1,0 +1,82 @@
+{
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Lūdzu, izvēlieties vērtību no saraksta",
+      "SelectionWindowMessage": "Lūdzu, izvēlieties vērtību no saraksta vai meklējiet, izmantojot logu"
+    },
+    "Required": {
+      "Message": "Ievadiet vērtību"
+    },
+    "MaxLength": {
+      "Message": "Pārsniegts maksimālais teksta garums ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Minimālais teksta garums nav sasniegts ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Nederīgs datuma un laika formāts"
+    },
+    "DatePickerSyntax": {
+      "Message": "Nederīgs datu formāts"
+    },
+    "TimePickerSyntax": {
+      "Message": "Nederīgs laika formāts"
+    },
+    "RegExp": {
+      "Message": "Nederīgs vērtību formāts"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Kodam jāsākas ar \"{{schemaNamePrefix}}\" prefiksu.",
+      "OnlySchemaNamePrefixMessage": "Ievadiet vismaz vienu simbolu."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Izmantojiet simbolus: a-z, A-Z, 0-9, pasvītrojums vai domuzīme. Tikai burti var būt pirmie."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "The value '{{controlValue}}' already exists in the 'Code' column."
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Kolonna noņemta",
+    "ValidationErrorMessageSingleErrorField": "Lauka: {0}. Kļūda: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Lauki: {0}. Kļūda: {1}",
+    "RefreshModelDataConflict": "Creatio ir jauni dati pašreizējai lapai. Lai tos apskatītu, saglabājiet vai atceliet savas izmaiņas un atjaunojiet lapu.",
+    "WarningModelsWithCircularDependencies": "Dažiem modeļiem ir apaļas atkarības un tie nav ielādēti",
+    "LoadingModelErrorMessage": "Kļūda notika vaicājuma izpildes laikā"
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Data has been refreshed"
+  },
+  "SkeletonLoader": {
+    "Loading": "Ielāde..."
+  },
+  "CopyClipboard": {
+    "Copied": "Kopēts"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Pagaidām nekas nav parādīts ",
+      "Subhead": "Lūdzu, pievienojiet datus vispirms"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Tērzēšana sākās: {0} pēc",
+        "EndDate": "Tērzēšana pabeigta {0} ar"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Ielāde"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Kļūda",
+      "Default": "Rīkjosla"
+    }
+  },
+  "Dialog": {
+    "ProcessSchemaSavedWithValidationError": "Shēma ir veiksmīgi saglabāta, bet validācijas kļūdas neļauj tai tikt izpildītai."
+  }
+}

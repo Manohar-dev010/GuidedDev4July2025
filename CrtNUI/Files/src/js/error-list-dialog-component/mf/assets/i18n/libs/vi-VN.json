@@ -1,0 +1,82 @@
+{
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Vui lòng chọn giá trị từ danh sách",
+      "SelectionWindowMessage": "Please select value from the list or search using the lookup window"
+    },
+    "Required": {
+      "Message": "Nhập một giá trị"
+    },
+    "MaxLength": {
+      "Message": "Maximum text length exceeded ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Minimum text length not reached ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Invalid date and time format"
+    },
+    "DatePickerSyntax": {
+      "Message": "Invalid date format"
+    },
+    "TimePickerSyntax": {
+      "Message": "Invalid time format"
+    },
+    "RegExp": {
+      "Message": "Invalid value format"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Code must start with the {{schemaNamePrefix}} prefix.",
+      "OnlySchemaNamePrefixMessage": "Enter at least one more symbol."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Use symbols: a-z, A-Z, 0-9, underscore or dash. Only letters can be first."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "The value '{{controlValue}}' already exists in the 'Code' column."
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Column removed",
+    "ValidationErrorMessageSingleErrorField": "Field: {0}. Error: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Fields: {0}. Error: {1}",
+    "RefreshModelDataConflict": "Creatio has new data for the current page. To view it, save or cancel your changes and refresh the page.",
+    "WarningModelsWithCircularDependencies": "Some models have circular dependencies and have not been loaded",
+    "LoadingModelErrorMessage": "Error occurred during the query execution"
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Data has been refreshed"
+  },
+  "SkeletonLoader": {
+    "Loading": "Đang tải..."
+  },
+  "CopyClipboard": {
+    "Copied": "Copied"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Nothing to show yet ",
+      "Subhead": "Please add data first"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Chat started: {0} by",
+        "EndDate": "Chat completed: {0} by"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Loading"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Error",
+      "Default": "Tooltip"
+    }
+  },
+  "Dialog": {
+    "ProcessSchemaSavedWithValidationError": "The process schema saved successfully, but validation errors prevent it from running."
+  }
+}

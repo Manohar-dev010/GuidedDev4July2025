@@ -1,0 +1,82 @@
+{
+  "SkeletonLoader": {
+    "Loading": "Učitavanje..."
+  },
+  "CopyClipboard": {
+    "Copied": "Kopirano"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Još ništa za prikazati ",
+      "Subhead": "Molim prvo dodajte podatke"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Razgovor započet: {0} od strane",
+        "EndDate": "Razgovor završen: {0} od strane"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Učitavanje"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Greška",
+      "Default": "Opisna oznakaprikaz savjeta"
+    }
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Molimo odaberite vrijednost iz popisa",
+      "SelectionWindowMessage": "Molimo odaberite vrijednost iz popisa ili pretražite koristeći prozor za pretraživanje"
+    },
+    "Required": {
+      "Message": "Unesite vrijednost"
+    },
+    "MaxLength": {
+      "Message": "Premašena maksimalna duljina teksta ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Minimalna duljina teksta nije dosegnuta ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Neispravan format datuma i vremena"
+    },
+    "DatePickerSyntax": {
+      "Message": "Neispravan format datuma"
+    },
+    "TimePickerSyntax": {
+      "Message": "Neispravan format vremena"
+    },
+    "RegExp": {
+      "Message": "Neispravan format vrijednosti"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Kod mora započeti prefiksom {{schemaNamePrefix}}.",
+      "OnlySchemaNamePrefixMessage": "Unesite barem jedan znak."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Koristite simbole: a-z, A-Z, 0-9, donja crta ili crtica. Samo slova mogu biti prva."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "Vrijednost '{{controlValue}}' već postoji u koloni 'Kod'."
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Stupac uklonjen",
+    "ValidationErrorMessageSingleErrorField": "Polje: {0}. Greška: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Polja: {0}. Greška: {1}",
+    "RefreshModelDataConflict": "Creatio ima nove podatke za trenutnu stranicu. Kako biste ih vidjeli, spremite ili poništite svoje promjene i osvježite stranicu.",
+    "WarningModelsWithCircularDependencies": "Neki modeli imaju cikličke ovisnosti i nisu učitani",
+    "LoadingModelErrorMessage": "Došlo je do greške tijekom izvršavanja upita"
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Podaci su osvježeni"
+  },
+  "Dialog": {
+    "ProcessSchemaSavedWithValidationError": "Shema procesa je uspješno spremljena, ali validacijske pogreške sprječavaju njezvo izvršavanje."
+  }
+}

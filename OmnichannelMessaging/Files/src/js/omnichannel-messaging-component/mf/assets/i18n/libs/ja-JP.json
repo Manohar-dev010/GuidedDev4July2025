@@ -1,0 +1,86 @@
+{
+  "SkeletonLoader": {
+    "Loading": "読み込み中.."
+  },
+  "CopyClipboard": {
+    "Copied": "コピーしました"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "表示するものがありません ",
+      "Subhead": "データを追加してください"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "チャット開始: {0}",
+        "EndDate": "チャット完了: {0}"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "読み込み中"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "エラー",
+      "Default": "ツールチップ"
+    }
+  },
+  "Dialog": {
+    "ProcessSchemaSavedWithValidationError": "The process schema saved successfully, but validation errors prevent it from running."
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "リストから項目を選択してください",
+      "SelectionWindowMessage": "リストから値を選択するか、検索窓より検索してください"
+    },
+    "Required": {
+      "Message": "入力してください"
+    },
+    "MaxLength": {
+      "Message": "最大文字数を超えました ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "最小文字数に達していません ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "日付と時刻の形式が正しくありません"
+    },
+    "DatePickerSyntax": {
+      "Message": "無効な日付フォーマット"
+    },
+    "TimePickerSyntax": {
+      "Message": "無効な時間形式です"
+    },
+    "RegExp": {
+      "Message": "値の形式が無効です"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Code must start with the {{schemaNamePrefix}} prefix.",
+      "OnlySchemaNamePrefixMessage": "Enter at least one more symbol."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Use symbols: a-z, A-Z, 0-9, underscore or dash. Only letters can be first."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "The value '{{controlValue}}' already exists in the 'Code' column."
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "列が削除されました",
+    "ValidationErrorMessageSingleErrorField": "フィールド: {0}. エラー: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "フィールド: {0}. エラー: {1}",
+    "RefreshModelDataConflict": "Creatioには現在のページに新しいデータがあります。 変更を表示するには、保存またはキャンセルしてページを更新してください。",
+    "WarningModelsWithCircularDependencies": "一部のモデルには循環依存関係があり、読み込まれていません",
+    "LoadingModelErrorMessage": "Error occurred during the query execution"
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Data has been refreshed"
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "新規または既存のレコードのページはありません。システム管理者はFreedom UIのボタン設定を確認する必要があります。",
+    "GoToEntityDesignerMessage": "ページをセットアップするにはURL： {0} に遷移してください。"
+  }
+}

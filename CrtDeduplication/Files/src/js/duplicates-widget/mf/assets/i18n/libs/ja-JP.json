@@ -1,0 +1,575 @@
+{
+  "DuplicatesWidgetContent": {
+    "Empty": "重複レコードが見つかりませんでした",
+    "FoundDuplicates": "重複可能レコード： {0}",
+    "Caption": "重複",
+    "ProcessingDuplicates": "重複を処理中"
+  },
+  "IndicatorWidget": {
+    "NoData": "N/A",
+    "AriaDescription": "{{chartTitle}}. The chart type is Metric. The current value is {{ariaValue}}. Use the enter or white space keys to drill down the element."
+  },
+  "ChartLegend": {
+    "Title": "Legend for {{chartTitle}} chart: use arrow keys to navigate and Enter key to open context menu."
+  },
+  "ChartJsScreenReaderPlugin": {
+    "Description": "{{chartType}} chart for \"{{chartTitle}}\" with {{groupsCount}} groups. The chart showing \"{{groupsNames}}\". X is \"{{xLabel}}\" from {{xMin}} to {{xMax}}. Y is \"{{yLabel}}\" from {{yMin}} to {{yMax}}. Use arrow keys to navigate.",
+    "Tooltip": "{{xValue}}, {{yValue}}, {{label}}. Use Enter key to open context menu."
+  },
+  "GaugeWidget": {
+    "AriaDescription": "{{chartTitle}}. The chart type is Gauge. Data ranges from {{ariaMin}} to {{ariaMax}}. The current value is {{ariaValue}}. Use the enter or white space keys to drill down the element."
+  },
+  "HeaderWidget": {
+    "Fullscreen": {
+      "ExpandLabel": "Expand fullscreen for \"{{title}}\" chart.",
+      "CollapseLabel": "Collapse fullscreen for \"{{title}}\" chart."
+    },
+    "Menu": {
+      "Caption": "Menu for \"{{title}}\" chart."
+    }
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "リストから項目を選択してください",
+      "SelectionWindowMessage": "リストから値を選択するか、検索窓より検索してください"
+    },
+    "Required": {
+      "Message": "入力してください"
+    },
+    "MaxLength": {
+      "Message": "最大文字数を超えました ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "最小文字数に達していません ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "日付と時刻の形式が正しくありません"
+    },
+    "DatePickerSyntax": {
+      "Message": "無効な日付フォーマット"
+    },
+    "TimePickerSyntax": {
+      "Message": "無効な時間形式です"
+    },
+    "RegExp": {
+      "Message": "値の形式が無効です"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Code must start with the {{schemaNamePrefix}} prefix.",
+      "OnlySchemaNamePrefixMessage": "Enter at least one more symbol."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Use symbols: a-z, A-Z, 0-9, underscore or dash. Only letters can be first."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "The value '{{controlValue}}' already exists in the 'Code' column."
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "列が削除されました",
+    "ValidationErrorMessageSingleErrorField": "フィールド: {0}. エラー: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "フィールド: {0}. エラー: {1}",
+    "RefreshModelDataConflict": "Creatioには現在のページに新しいデータがあります。 変更を表示するには、保存またはキャンセルしてページを更新してください。",
+    "WarningModelsWithCircularDependencies": "一部のモデルには循環依存関係があり、読み込まれていません",
+    "LoadingModelErrorMessage": "Error occurred during the query execution"
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Data has been refreshed"
+  },
+  "SkeletonLoader": {
+    "Loading": "読み込み中.."
+  },
+  "CopyClipboard": {
+    "Copied": "コピーしました"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "表示するものがありません ",
+      "Subhead": "データを追加してください"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "チャット開始: {0}",
+        "EndDate": "チャット完了: {0}"
+      }
+    },
+    "ChatWindow": {
+      "Bots": {
+        "Name": "Creatio.AI"
+      }
+    },
+    "Channel": {
+      "ActiveChatsValidationError": "このチャンネルは削除できません。アクティブなチャットまたは配信中のチャットがあります。まずチャットを完了してから再試行してください。"
+    }
+  },
+  "MaskLoader": {
+    "Loading": "読み込み中"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "エラー",
+      "Default": "ツールチップ"
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "新規または既存のレコードのページはありません。システム管理者はFreedom UIのボタン設定を確認する必要があります。",
+    "GoToEntityDesignerMessage": "ページをセットアップするにはURL： {0} に遷移してください。"
+  },
+  "Dialog": {
+    "ProcessSchemaSavedWithValidationError": "The process schema saved successfully, but validation errors prevent it from running.",
+    "Ok": "OK",
+    "Yes": "はい",
+    "No": "いいえ",
+    "Save": "保存",
+    "DoNotSave": "保存しない",
+    "Cancel": "キャンセル",
+    "Delete": "削除",
+    "Close": "閉じる",
+    "Notification": "通知"
+  },
+  "Input": {
+    "Readonly": "編集不可能なフィールド",
+    "ShowPassword": "パスワードを表示",
+    "HidePassword": "パスワードを非表示"
+  },
+  "Carousel": {
+    "NoData": "データがありません",
+    "PrevButtonCaption": "Previous item",
+    "NextButtonCaption": "Next item"
+  },
+  "ComboBox": {
+    "Readonly": "編集不可能なフィールド",
+    "NoData": "データがありません",
+    "EmptyDisplayValue": "表示できる値がありません",
+    "AddNewRecord": "新規追加",
+    "InvalidValueSyntax": "リストから項目を選択してください",
+    "IsGoToSourceAllowedTooltip": "レコード一覧へ移動",
+    "CheckAll": "すべてチェックする",
+    "ClearAll": "すべてをクリア",
+    "SelectValue": "値を選択",
+    "ClearValue": "値をクリア",
+    "OpenSection": "セクションを開く"
+  },
+  "DataGrid": {
+    "AddColumns": "カラムを追加",
+    "ColumnToolbar": {
+      "Hide": "非表示",
+      "Freeze": "固定",
+      "Unfreeze": "固定の解除",
+      "Rename": "名前を変更",
+      "Title": "列の操作",
+      "Edit": "プロパティ",
+      "SortAscending": "Sort ascending",
+      "SortDescending": "Sort descending",
+      "ClearSorting": "Clear sorting",
+      "AriaLabel": "Column actions for"
+    },
+    "ActionsToolbar": {
+      "AriaLabel": "List actions for",
+      "SaveForAll": "Save as new default list settings",
+      "ResetToDefault": "デフォルトのリスト設定に戻す",
+      "Title": "動作の一覧",
+      "SaveForAllSuccess": "設定を保存しました",
+      "GeneralListSettingsLabel": "General list settings",
+      "FolderListSettingsLabel": "List settings for folder",
+      "SaveListSettingsForFolder": "Save list settings for \"{0}\"",
+      "ClearListSettingsForFolder": "Clear list settings for \"{0}\"",
+      "SaveListSettingsForFolderSuccess": "List settings were saved. Creatio will apply them only when the \"{0}\" folder is active",
+      "SaveListSettingsForFolderNoPermission": "You lack access permissions to save changes to the \"{0}\" folder",
+      "ConfirmOverrideForAll": "Overwrite",
+      "SaveForAllWithOverride": "Overwrite current list settings for all users",
+      "ResetToDefaultSuccessfully": "Default list settings restored successfully",
+      "ClearListSettingsForFolderSuccessfully": "List settings for folder cleared successfully"
+    },
+    "RowToolbar": {
+      "Open": "開く",
+      "Copy": "コピー",
+      "Delete": "削除",
+      "RunBusinessProcess": "ビジネス プロセスを実行",
+      "Title": "行の操作"
+    },
+    "AddColumnsTo": "Add columns to",
+    "Title": "List {0}",
+    "Confirmation": {
+      "OverrideSettingsForAllUsers": "New default list settings will be saved and will replace the current settings for all users. Continue?"
+    },
+    "Statuses": {
+      "ColumnAddedSuccessfully": "Column added successfully",
+      "ColumnsAddedSuccessfully": "Columns added successfully",
+      "ColumnHiddenSuccessfully": "Column hidden successfully",
+      "ColumnFrozenSuccessfully": "Column frozen successfully",
+      "ColumnUnfrozenSuccessfully": "Column unfrozen successfully",
+      "ColumnChangedSuccessfully": "Column changed successfully"
+    }
+  },
+  "DataTable": {
+    "NoData": "データがありません",
+    "NoColumns": "列が追加されていません",
+    "Hints": {
+      "Sort": "並び替え",
+      "StartEditing": "編集",
+      "ReadonlyCell": "編集不可能なフィールド",
+      "CancelChanges": "破棄",
+      "AddItem": "新規レコードを追加",
+      "SortWithCaption": "Sort {0}",
+      "NotSorted": "currently not sorted",
+      "SortedAscending": "currently sorted ascending",
+      "SortedDescending": "currently sorted descending",
+      "SortAscending": "Sort ascending",
+      "SortDescending": "Sort descending",
+      "RowControls": "Row controls"
+    },
+    "SaveItemsChanges": "すべて保存",
+    "CancelItemsChanges": "破棄",
+    "AddItem": "新規",
+    "BulkActions": {
+      "MoreActions": "その他の操作",
+      "AriaLabel": "Bulk actions for {0}"
+    },
+    "RowsSelection": {
+      "Selected": "選択済み",
+      "SelectAll": "すべて選択",
+      "ClearSelection": "選択をクリア",
+      "SelectRow": "Select row",
+      "RowsSelected": "Rows selected: {0}"
+    },
+    "NotFoundColumn": "列が見つかりません",
+    "ColumnSticky": "固定された列",
+    "StatusBar": {
+      "AriaLabel": "Edit actions for {0}"
+    },
+    "Columns": {
+      "ChangeWidth": "幅を変更",
+      "ChangeWidthOf": "Change width of {0}"
+    }
+  },
+  "Gallery": {
+    "NoData": "データがありません",
+    "MenuActions": "アクション",
+    "DateAdded": "Date added",
+    "SelectItem": "Select item",
+    "Item": {
+      "ActionsButtonCaption": "Item actions"
+    }
+  },
+  "DataTableBooleanCell": {
+    "BooleanValue": {
+      "True": "はい",
+      "False": "いいえ"
+    }
+  },
+  "FileInput": {
+    "Delete": "削除",
+    "Cancel": "キャンセル",
+    "Attach": "添付",
+    "FileIcon": "ファイルアイコン",
+    "EmptyFileName": "空のファイル名",
+    "MaxFileSizeLimitReached": "最大ファイルサイズ制限に達しています({0}MB)"
+  },
+  "DataGridColumnEditDialog": {
+    "SaveButton": "保存",
+    "CancelButton": "キャンセル",
+    "ColumnProperties": "列のプロパティ",
+    "Title": "タイトル",
+    "FilterHeader": "レコードをフィルタリングする方法",
+    "SortingHeader": "Sort records",
+    "SortColumn": "ソート",
+    "WhatToDisplay": "表示する項目",
+    "AggregationColumn": "列",
+    "SortOrder": "並べ替え",
+    "SetupFilters": "フィルターの設定",
+    "EditFilters": "Edit filters"
+  },
+  "FileList": {
+    "Placeholder": {
+      "Title": "ここにファイルをドロップ",
+      "Description": "または",
+      "Upload": "アップロード"
+    }
+  },
+  "SmartDateTimeFormat": {
+    "At": "at",
+    "TodayAt": "今日 {0}",
+    "YesterdayAt": "昨日 {0}",
+    "DayBeforeYesterdayAt": "一昨日 {0}"
+  },
+  "LookupFormat": {
+    "EmptyDisplayValue": "表示できる値がありません"
+  },
+  "WebInput": {
+    "LinkButtonHint": "リンクを開く"
+  },
+  "EmailInput": {
+    "AddEmailHint": "メール送信"
+  },
+  "ImageInput": {
+    "Alt": "Field image",
+    "Upload": "アップロード",
+    "Clear": "削除",
+    "Change": "変更",
+    "AltAbbreviation": "Abbreviation image",
+    "AltIcon": "Field empty placeholder"
+  },
+  "TimerDateTimeFormat": {
+    "MonthAbbreviation": "ヶ月",
+    "DaysAbbreviation": "日",
+    "HoursAbbreviation": "時間",
+    "MinutesAbbreviation": "min"
+  },
+  "TabPanel": {
+    "CloseTabHint": "タブを閉じる"
+  },
+  "AppToolbar": {
+    "QuickRunProcess": {
+      "Title": "実行プロセス",
+      "SuccessMessage": "プロセスが正常に実行されました",
+      "NotConfiguredQuickProcessesMessage": "クイックプロセスの実行はまだ設定されていません",
+      "OtherProcessesCaption": "その他のプロセス"
+    },
+    "Settings": {
+      "Title": "設定"
+    },
+    "UserProfile": {
+      "Title": "あなたのプロフィール",
+      "MenuItems": {
+        "Profile": "あなたのプロフィール",
+        "Logout": "終了",
+        "OrganizationProfile": "組織のプロフィール"
+      }
+    },
+    "New": {
+      "Title": "新規",
+      "NoItemTitle": "クイックレコードの作成はまだ設定されていません"
+    },
+    "Help": {
+      "Title": "Need help",
+      "SupportSubject": "質問",
+      "MenuItems": {
+        "OnlineHelp": "オンラインヘルプ",
+        "NeedHelp": "ヘルプ",
+        "ExternalAccess": "サポートへのアクセスを許可",
+        "ReleaseNotes": "リリースノート"
+      },
+      "EmailBodyTemplate": "body=%0D%0A%0D%0ASite: {0}%0D%0ACustomer ID: {1}%0D%0AProduct: {2}%0D%0AVersion: {3}%0D%0AScreen size: {4}%0D%0ALocalization: {5}%0D%0APage: {6}",
+      "AccessGrantedMessage": "アクセスを許可",
+      "ReleaseNotesUrl": "https://academy.creatio.com/docs/8.x/resources/category/release-notes"
+    },
+    "CommunicationPanelButton": {
+      "Title": "コミュニケーションパネル"
+    },
+    "NotificationsPanelButton": {
+      "Title": "通知パネル"
+    },
+    "Logo": {
+      "Title": "デスクトップへ移動"
+    },
+    "WorkspaceExplorer": {
+      "Title": "構成"
+    },
+    "LegacySidePanelButton": {
+      "Title": "Additions panel"
+    },
+    "ConfigurationErrorsButton": {
+      "Title": "Compilation error",
+      "WorkspaceExplorerTemplate": "To view a list of compilation errors and fix them, visit <a href ='{0}' target='_blank'>Configuration section</a>."
+    },
+    "NavigationPanelButton": {
+      "Title": "ナビゲーションパネル"
+    }
+  },
+  "NavigationPanel": {
+    "SearchFilter": {
+      "PlaceholderCaption": "Search..."
+    },
+    "CollapseButton": {
+      "CollapseCaption": "Collapse navigation panel",
+      "ExpandCaption": "Expand navigation panel"
+    },
+    "SearchResultsCaption": "検索結果",
+    "EmptySearchResult": {
+      "Title": "There are no items matching the search criteria.",
+      "Subhead": "Clear or change the search criteria."
+    }
+  },
+  "ReadMoreDirective": {
+    "Label": "続きを読む"
+  },
+  "Timer": {
+    "timePassedTpl": "{0} が合格しました",
+    "timeBeforeCountStartTpl": "カウントダウン開始 {0} 前です",
+    "overdueTpl": "{0} 期日超過しました",
+    "timeLeftTpl": "{0} 期日残存しています",
+    "timeIsUpTpl": "時間切れ",
+    "waitingForStartDateTpl": "開始日時を待機中",
+    "dateNotSet": "0時間 0分"
+  },
+  "SearchFilter": {
+    "ColumnsGroups": {
+      "AllOption": "すべて",
+      "SelectMenuLabel": "列で検索",
+      "Title": "Select filter column"
+    },
+    "ClearIconTitle": "Clear search"
+  },
+  "AppBackground": {
+    "Dialog": {
+      "SuccessfullySaved": "保存が完了しました",
+      "ErrorOnSave": "変更を適用しようとした際にエラーが発生しました"
+    },
+    "SetupAppearance": {
+      "DeleteDesktop": {
+        "ConfirmationDialogTitle": "\"{0}\" デスクトップを削除してもよろしいですか？",
+        "Error": {
+          "Deletion": "デスクトップ削除中にエラーが発生しました",
+          "Configuration": "設定ビルド中にエラーが発生しました"
+        },
+        "Success": "デスクトップ \"{0}\" は正常に削除されました"
+      }
+    }
+  },
+  "GlobalSearch": {
+    "PlaceholderCaption": "Search..."
+  },
+  "AllowedResults": {
+    "Caption": "許可された結果"
+  },
+  "LicenseIndicator": {
+    "Title": "ライセンスが必要です"
+  },
+  "TagSelect": {
+    "AddTagInRecordButtonCaption": "タグの追加",
+    "CreateNewTagButtonCaption": "新しいタグの作成"
+  },
+  "CanDiscardUnsavedData": {
+    "Default": {
+      "Message": "保存されていない変更は失われます。続行しますか？"
+    },
+    "List": {
+      "Message": "The list contains unsaved changes. They will be lost if you proceed. Save the changes?"
+    },
+    "Page": {
+      "Message": "The page contains unsaved changes. They will be lost if you proceed. Save the changes?"
+    }
+  },
+  "SelectList": {
+    "EditItemActionButtonCaption": "レコードの編集",
+    "DeleteItemActionButtonCaption": "レコードの削除",
+    "NoData": "データがありません"
+  },
+  "ChipList": {
+    "ChipListOverlay": {
+      "NoData": "データがありません",
+      "CloseButtonTitle": "閉じる"
+    },
+    "AriaLabel": "Selected Items",
+    "Chip": {
+      "RemoveButtonCaption": "消去"
+    },
+    "AriaLabelFor": "Selected Items for"
+  },
+  "Playbook": {
+    "Caption": "プレイブック",
+    "Hint": "コンポーネントは、特定のダイナミックケースステージからナレッジベースの情報にアクセスするためのヒントと指示をユーザーに表示します。プレイブックのセクションで関連記事を設定できます。詳細については、",
+    "Placeholder": {
+      "Title": "関連するプレイブックが見つかりません",
+      "Description": "現在のダイナミックケースステージに関連する記事をプレイブックセクションに設定してください"
+    },
+    "Actions": {
+      "Back": "戻る",
+      "OpenInDialog": "モーダルウィンドウで開く"
+    },
+    "Dialog": {
+      "Actions": {
+        "Close": "閉じる",
+        "OpenPage": "新しいタブで開く"
+      }
+    }
+  },
+  "MessageEditor": {
+    "ErrorCode": {
+      "AuthorizationError": "Authorization failed. Try again later or ask the administrator for help.",
+      "FormatError": "Invalid format in the request. Make sure the input is structured correctly and check the output parameters of your actions.",
+      "LimitError": "Token limit reached, further work with Creatio.ai is locked. Contact your administrator to replenish Creatio.ai tokens.",
+      "ServiceAvailabilityError": "Service is temporarily unavailable. Try again later.",
+      "ExecutionError": "Error occurred while processing your request. Try again or ask the administrator for help.",
+      "ConfigurationError": "Configuration issue detected. Verify the system settings or ask the administrator for help.",
+      "UnknownError": "不明なエラーが発生しました。後でもう一度試すか、管理者に問い合わせてください。",
+      "CharacterLimitExceededError": "The character limit in the user's query has been reached. Verify the system settings or ask the administrator for help."
+    }
+  },
+  "SpecificationFilter": {
+    "NoData": "データがありません",
+    "Boolean": {
+      "Yes": "はい",
+      "No": "いいえ"
+    },
+    "String": {
+      "Placeholder": "Enter text"
+    },
+    "Numeric": {
+      "Placeholder": "Enter number",
+      "To": "up to",
+      "MaxValueError": "Value is above max value",
+      "MinValueError": "Value is below min value"
+    }
+  },
+  "Conversation": {
+    "Caption": "会話",
+    "Copilot": {
+      "TypingMessage": "Generating response",
+      "Action": {
+        "Replace": "Replace selection",
+        "InsertAbove": "Insert above",
+        "InsertBelow": "Insert below"
+      }
+    }
+  },
+  "BulkActions": {
+    "Delete": "削除",
+    "Export": "Excel出力",
+    "AddTag": "タグの追加",
+    "RemoveTag": "タグの削除",
+    "RowsSelection": {
+      "Selected": "選択済み",
+      "SelectAll": "全ての項目を選択",
+      "ClearSelection": "選択をクリア"
+    }
+  },
+  "Breadcrumbs": {
+    "AriaLabel": "Breadcrumbs"
+  },
+  "ButtonToggleGroup": {
+    "ButtonToggleGroupItem": {
+      "NotificationsPostfix": "with notifications"
+    }
+  },
+  "NumberInput": {
+    "AriaLabel": "ナンバー"
+  },
+  "ExpansionPanel": {
+    "Collapse": "折りたたむ",
+    "Expand": "展開する"
+  },
+  "ProgressBar": {
+    "AriaLabel": "進捗バー"
+  },
+  "OperatorState": {
+    "ChatStatesMenuCaption": "チャットステータス",
+    "CtiStatesMenuCaption": "Telephony status"
+  },
+  "PhoneInput": {
+    "CallButtonHint": "発信"
+  },
+  "DateTimePicker": {
+    "AriaNextMonthLabel": "次の月",
+    "AriaPrevMonthLabel": "前の月",
+    "AriaNextYearLabel": "翌年",
+    "AriaPrevYearLabel": "前年",
+    "Readonly": "編集できないフィールド",
+    "DateTimePickerIconTitle": "Date/Time",
+    "DatePickerIconTitle": "カレンダー",
+    "TimePickerIconTitle": "時刻"
+  }
+}

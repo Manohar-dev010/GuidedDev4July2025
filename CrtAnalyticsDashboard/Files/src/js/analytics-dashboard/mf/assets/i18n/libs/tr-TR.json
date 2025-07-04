@@ -1,0 +1,82 @@
+{
+  "SkeletonLoader": {
+    "Loading": "Yükleniyor..."
+  },
+  "CopyClipboard": {
+    "Copied": "Kopyalanmış"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Henüz gösterilecek bir şey yok",
+      "Subhead": "Lütfen önce veri ekleyin"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Sohbet başladı: {0}",
+        "EndDate": "Sohbet tamamlandı: {0}"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Yükleme"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Hata",
+      "Default": "Araç ipucu"
+    }
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Lütfen listeden değer seçin",
+      "SelectionWindowMessage": "Lütfen listeden değer seçin veya arama penceresini kullanarak arayın"
+    },
+    "Required": {
+      "Message": "Değer girin"
+    },
+    "MaxLength": {
+      "Message": "Maksimum metin uzunluğu aşıldı ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Minimum metin uzunluğuna ulaşılamadı ({{ActuAlghength}}/{{MinLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Geçersiz Tarih ve Saat Biçimi"
+    },
+    "DatePickerSyntax": {
+      "Message": "Geçersiz tarih biçimi"
+    },
+    "TimePickerSyntax": {
+      "Message": "Geçersiz Zaman Biçimi"
+    },
+    "RegExp": {
+      "Message": "Geçersiz değer biçimi"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Kod {{schemanameprefix}} öneki ile başlamalıdır.",
+      "OnlySchemaNamePrefixMessage": "En az bir sembol daha girin."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Sembolleri kullanın: A-Z, A-Z, 0-9, alt çizgi veya çizgi.İlk önce sadece harfler olabilir."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "The value '{{controlValue}}' already exists in the 'Code' column."
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Sütun kaldırıldı",
+    "ValidationErrorMessageSingleErrorField": "Alan: {0}.Hata: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Alanlar: {0}.Hata: {1}",
+    "RefreshModelDataConflict": "Creatio, geçerli sayfa için yeni verilere sahiptir.Görüntülemek için değişikliklerinizi kaydedin veya iptal edin ve sayfayı yenileyin.",
+    "WarningModelsWithCircularDependencies": "Bazı modellerin dairesel bağımlılıkları vardır ve yüklenmemiştir",
+    "LoadingModelErrorMessage": "Sorgu yürütme sırasında hata oluştu"
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Data has been refreshed"
+  },
+  "Dialog": {
+    "ProcessSchemaSavedWithValidationError": "İşlem şeması başarılı bir şekilde kaydedildi, ancak doğrulama hataları çalışmasını engelliyor."
+  }
+}

@@ -1,0 +1,1754 @@
+{
+  "Input": {
+    "Readonly": "Campo non-editabile",
+    "ShowPassword": "Mostra password",
+    "HidePassword": "Nascondi password"
+  },
+  "Carousel": {
+    "NoData": "Nessun dato",
+    "PrevButtonCaption": "Previous item",
+    "NextButtonCaption": "Next item"
+  },
+  "ComboBox": {
+    "Readonly": "Campo non-editabile",
+    "InvalidValueSyntax": "Seleziona il valore dalla lista",
+    "NoData": "Nessun dato",
+    "EmptyDisplayValue": "Nessun valore visualizzato",
+    "AddNewRecord": "Aggiungi nuovo",
+    "IsGoToSourceAllowedTooltip": "Vai alla lista dei record",
+    "CheckAll": "Seleziona tutto",
+    "ClearAll": "Cancella tutto",
+    "SelectValue": "Seleziona valore",
+    "ClearValue": "Annulla valore",
+    "OpenSection": "Open section"
+  },
+  "DataGrid": {
+    "AddColumns": "Aggiungi colonne",
+    "ColumnToolbar": {
+      "Hide": "Nascondi",
+      "Freeze": "Fissa",
+      "Unfreeze": "Sblocca",
+      "Rename": "Rinomina",
+      "Title": "Azioni colonna",
+      "Edit": "Proprietà",
+      "SortAscending": "Sort ascending",
+      "SortDescending": "Sort descending",
+      "ClearSorting": "Clear sorting",
+      "AriaLabel": "Column actions for"
+    },
+    "RowToolbar": {
+      "Open": "Apri",
+      "Copy": "Copia",
+      "Delete": "Elimina",
+      "RunBusinessProcess": "Esegui business process",
+      "Title": "Azioni riga"
+    },
+    "ActionsToolbar": {
+      "AriaLabel": "List actions for",
+      "SaveForAll": "Save as new default list settings",
+      "ResetToDefault": "Ripristina le impostazioni della lista predefinita",
+      "Title": "Elenco delle azioni",
+      "SaveForAllSuccess": "Impostazioni salvate",
+      "GeneralListSettingsLabel": "Impostazioni elenco generale",
+      "FolderListSettingsLabel": "Impostazioni elenco per la cartella",
+      "SaveListSettingsForFolder": "Salva le impostazioni della lista per \"{0}\"",
+      "ClearListSettingsForFolder": "Cancella le impostazioni della lista per \"{0}\"",
+      "SaveListSettingsForFolderSuccess": "Le impostazioni della lista sono state salvate. Creatio le applicherà solo quando la cartella \"{0}\" sarà attiva",
+      "SaveListSettingsForFolderNoPermission": "Non hai i permessi di accesso per salvare le modifiche alla cartella \"{0}\"",
+      "ConfirmOverrideForAll": "Overwrite",
+      "SaveForAllWithOverride": "Overwrite current list settings for all users",
+      "ResetToDefaultSuccessfully": "Default list settings restored successfully",
+      "ClearListSettingsForFolderSuccessfully": "List settings for folder cleared successfully"
+    },
+    "AddColumnsTo": "Add columns to",
+    "Title": "List {0}",
+    "Confirmation": {
+      "OverrideSettingsForAllUsers": "New default list settings will be saved and will replace the current settings for all users. Continue?"
+    },
+    "Statuses": {
+      "ColumnAddedSuccessfully": "Column added successfully",
+      "ColumnsAddedSuccessfully": "Columns added successfully",
+      "ColumnHiddenSuccessfully": "Column hidden successfully",
+      "ColumnFrozenSuccessfully": "Column frozen successfully",
+      "ColumnUnfrozenSuccessfully": "Column unfrozen successfully",
+      "ColumnChangedSuccessfully": "Column changed successfully"
+    }
+  },
+  "DataTable": {
+    "NoData": "Nessun dato",
+    "NoColumns": "Nessuna colonna aggiunta",
+    "Hints": {
+      "Sort": "Ordina",
+      "StartEditing": "Modifica",
+      "ReadonlyCell": "Campo non-editabile",
+      "CancelChanges": "Annulla",
+      "AddItem": "Aggiungi nuovo record",
+      "SortWithCaption": "Sort {0}",
+      "NotSorted": "currently not sorted",
+      "SortedAscending": "currently sorted ascending",
+      "SortedDescending": "currently sorted descending",
+      "SortAscending": "Sort ascending",
+      "SortDescending": "Sort descending",
+      "RowControls": "Row controls"
+    },
+    "SaveItemsChanges": "Salva tutto",
+    "CancelItemsChanges": "Annulla",
+    "AddItem": "Nuovo",
+    "BulkActions": {
+      "MoreActions": "Altre azioni",
+      "AriaLabel": "Bulk actions for {0}"
+    },
+    "RowsSelection": {
+      "Selected": "selezionato",
+      "SelectAll": "Seleziona tutto",
+      "ClearSelection": "Annulla selezione",
+      "SelectRow": "Select row",
+      "RowsSelected": "Rows selected: {0}"
+    },
+    "NotFoundColumn": "Colonna non trovata",
+    "ColumnSticky": "Colonna congelata",
+    "StatusBar": {
+      "AriaLabel": "Edit actions for {0}"
+    },
+    "Columns": {
+      "ChangeWidth": "Modifica larghezza",
+      "ChangeWidthOf": "Change width of {0}"
+    }
+  },
+  "Gallery": {
+    "NoData": "Nessun dato",
+    "MenuActions": "Azioni",
+    "DateAdded": "Date added",
+    "SelectItem": "Select item",
+    "Item": {
+      "ActionsButtonCaption": "Item actions"
+    }
+  },
+  "DataTableBooleanCell": {
+    "BooleanValue": {
+      "True": "Sì",
+      "False": "No"
+    }
+  },
+  "FileInput": {
+    "Delete": "Elimina",
+    "Cancel": "Annulla",
+    "Attach": "Allega",
+    "FileIcon": "Icona file",
+    "EmptyFileName": "Nome file vuoto",
+    "MaxFileSizeLimitReached": "Raggiunto il limite massimo di dimensione del file ({0}MB)"
+  },
+  "DataGridColumnEditDialog": {
+    "SaveButton": "Salva",
+    "CancelButton": "Annulla",
+    "ColumnProperties": "Proprietà colonna",
+    "Title": "Titolo",
+    "FilterHeader": "Come filtrare i record",
+    "SortingHeader": "Sort records",
+    "SortColumn": "Ordina per",
+    "WhatToDisplay": "Cosa mostrare",
+    "AggregationColumn": "Colonna",
+    "SortOrder": "Ordinamento",
+    "SetupFilters": "Impostazione filtri",
+    "EditFilters": "Edit filters"
+  },
+  "FileList": {
+    "Placeholder": {
+      "Title": "Trascina qui i file",
+      "Description": "o usa",
+      "Upload": "Carica"
+    }
+  },
+  "SmartDateTimeFormat": {
+    "At": "a",
+    "TodayAt": "Oggi alle {0}",
+    "YesterdayAt": "Ieri a {0}",
+    "DayBeforeYesterdayAt": "L'altroieri a {0}"
+  },
+  "LookupFormat": {
+    "EmptyDisplayValue": "Nessun valore visualizzato"
+  },
+  "WebInput": {
+    "LinkButtonHint": "Apri link"
+  },
+  "EmailInput": {
+    "AddEmailHint": "Inviare email"
+  },
+  "ImageInput": {
+    "Alt": "Campo immagine",
+    "Upload": "Carica",
+    "Clear": "Cancella",
+    "Change": "Modifica",
+    "AltAbbreviation": "Immagine abbreviata",
+    "AltIcon": "Segnaposto del campo vuoto"
+  },
+  "TimerDateTimeFormat": {
+    "MonthAbbreviation": "mese",
+    "DaysAbbreviation": "gg",
+    "HoursAbbreviation": "ora",
+    "MinutesAbbreviation": "min"
+  },
+  "TabPanel": {
+    "CloseTabHint": "Chiudi scheda"
+  },
+  "AppToolbar": {
+    "QuickRunProcess": {
+      "Title": "Eseguire processo",
+      "SuccessMessage": "Il processo è stato avviato con successo",
+      "NotConfiguredQuickProcessesMessage": "L'esecuzione di processi rapidi non è ancora configurata",
+      "OtherProcessesCaption": "Altri processi"
+    },
+    "Settings": {
+      "Title": "Impostazioni"
+    },
+    "UserProfile": {
+      "Title": "Il tuo profilo",
+      "MenuItems": {
+        "Profile": "Il tuo profilo",
+        "Logout": "Esci",
+        "OrganizationProfile": "Profilo dell'organizzazione"
+      }
+    },
+    "New": {
+      "Title": "Nuovo",
+      "NoItemTitle": "La creazione rapida di record non è ancora configurata"
+    },
+    "Help": {
+      "Title": "Aiuto richiesto",
+      "SupportSubject": "Domanda su",
+      "MenuItems": {
+        "OnlineHelp": "Aiuto online",
+        "NeedHelp": "Bisogno di aiuto",
+        "ExternalAccess": "Concedi l'accesso al supporto",
+        "ReleaseNotes": "Note di rilascio"
+      },
+      "EmailBodyTemplate": "body=%0D%0A%0D%0ASito: {0}%0D%0ACustomer ID: {1}%0D%0AProdotto: {2}%0D%0AVersione: {3}%0D%0AScreen size: {4}%0D%0ALocalizzazione: {5}%0D%0APagina: {6}",
+      "AccessGrantedMessage": "Accesso concesso",
+      "ReleaseNotesUrl": "https://academy.creatio.com/docs/8.x/resources/category/release-notes"
+    },
+    "CommunicationPanelButton": {
+      "Title": "Pannello comunicazioni"
+    },
+    "NotificationsPanelButton": {
+      "Title": "Pannello notifiche"
+    },
+    "Logo": {
+      "Title": "Vai al desktop"
+    },
+    "WorkspaceExplorer": {
+      "Title": "Configurazione"
+    },
+    "LegacySidePanelButton": {
+      "Title": "Pannello aggiunte"
+    },
+    "ConfigurationErrorsButton": {
+      "Title": "Errore di compilazione",
+      "WorkspaceExplorerTemplate": "Per visualizzare un elenco di errori di compilazione e correggerli, visitare la sezione di configurazione <a href ='{0}' target='_blank'></a>."
+    },
+    "NavigationPanelButton": {
+      "Title": "Pannello di navigazione"
+    }
+  },
+  "NavigationPanel": {
+    "SearchFilter": {
+      "PlaceholderCaption": "Ricerca..."
+    },
+    "CollapseButton": {
+      "CollapseCaption": "Riduci pannello navigazione",
+      "ExpandCaption": "Espandi pannello di navigazione"
+    },
+    "SearchResultsCaption": "Risultati della ricerca",
+    "EmptySearchResult": {
+      "Title": "Non ci sono elementi corrispondenti ai criteri di ricerca.",
+      "Subhead": "Cancella o modifica i criteri di ricerca."
+    }
+  },
+  "ReadMoreDirective": {
+    "Label": "Scopri di più"
+  },
+  "Timer": {
+    "timePassedTpl": "{0} passato",
+    "timeBeforeCountStartTpl": "{0} prima che inizi il conto alla rovescia",
+    "overdueTpl": "{0} in ritardo",
+    "timeLeftTpl": "{0} rimanenti",
+    "timeIsUpTpl": "Il tempo è scaduto",
+    "waitingForStartDateTpl": "In attesa della data di inizio",
+    "dateNotSet": "0h 0min"
+  },
+  "SearchFilter": {
+    "ColumnsGroups": {
+      "AllOption": "Tutto",
+      "SelectMenuLabel": "Ricerca per colonna",
+      "Title": "Seleziona filtro per la colonna"
+    },
+    "ClearIconTitle": "Clear search"
+  },
+  "Dialog": {
+    "Ok": "OK",
+    "Yes": "Si",
+    "No": "No",
+    "Save": "Salva",
+    "DoNotSave": "Non salvare",
+    "Cancel": "Annulla",
+    "Delete": "Elimina",
+    "Close": "Chiudi",
+    "Notification": "Notifica",
+    "ProcessElementCompletedNotification": "Un altro utente ha completato questa attività",
+    "ProcessSchemaSavedWithValidationError": "Lo schema del processo è stato salvato con successo, ma gli errori di convalida impediscono l'esecuzione."
+  },
+  "AppBackground": {
+    "Dialog": {
+      "SuccessfullySaved": "Salvato con successo",
+      "ErrorOnSave": "Errore durante l'applicazione delle modifiche"
+    },
+    "SetupAppearance": {
+      "DeleteDesktop": {
+        "ConfirmationDialogTitle": "Sei sicuro di voler eliminare il desktop \"{0}\"?",
+        "Error": {
+          "Deletion": "Errore durante la cancellazione del desktop",
+          "Configuration": "Errore durante la compilazione della configurazione"
+        },
+        "Success": "Desktop \"{0}\" è stato eliminato con successo"
+      }
+    }
+  },
+  "GlobalSearch": {
+    "PlaceholderCaption": "Ricerca..."
+  },
+  "AllowedResults": {
+    "Caption": "Risultati consentiti"
+  },
+  "LicenseIndicator": {
+    "Title": "Licenza necessaria"
+  },
+  "TagSelect": {
+    "AddTagInRecordButtonCaption": "Aggiungi tag",
+    "CreateNewTagButtonCaption": "Crea un nuovo tag"
+  },
+  "CanDiscardUnsavedData": {
+    "Default": {
+      "Message": "Hai delle modifiche non salvate che andranno perse. Continuare?"
+    },
+    "List": {
+      "Message": "The list contains unsaved changes. They will be lost if you proceed. Save the changes?"
+    },
+    "Page": {
+      "Message": "The page contains unsaved changes. They will be lost if you proceed. Save the changes?"
+    }
+  },
+  "SelectList": {
+    "EditItemActionButtonCaption": "Modifica record",
+    "DeleteItemActionButtonCaption": "Elimina record",
+    "NoData": "Nessun dato"
+  },
+  "ChipList": {
+    "ChipListOverlay": {
+      "NoData": "Nessun dato",
+      "CloseButtonTitle": "Chiudi"
+    },
+    "AriaLabel": "Selected Items",
+    "Chip": {
+      "RemoveButtonCaption": "Rimuovi"
+    },
+    "AriaLabelFor": "Selected Items for"
+  },
+  "Playbook": {
+    "Caption": "Playbook",
+    "Hint": "Il componente visualizza suggerimenti e istruzioni per gli utenti per accedere alle informazioni dalla knowledge base per specifiche fasi dinamiche",
+    "Placeholder": {
+      "Title": "Non sono stati trovati articoli di playbook rilevanti",
+      "Description": "Per favore, impostare un articolo pertinente per la fase attuale del caso dinamico nella sezione Playbooks"
+    },
+    "Actions": {
+      "Back": "Indietro",
+      "OpenInDialog": "Apri nella finestra modale"
+    },
+    "Dialog": {
+      "Actions": {
+        "Close": "Chiudi",
+        "OpenPage": "Apri in una nuova scheda"
+      }
+    }
+  },
+  "MessageEditor": {
+    "ErrorCode": {
+      "AuthorizationError": "Autorizzazione non riuscita. Riprova più tardi o chiedi aiuto all'amministratore.",
+      "FormatError": "Formato non valido nella richiesta. Assicurati che l'input sia strutturato correttamente e controlla i parametri di output delle tue azioni.",
+      "LimitError": "Token limit reached, further work with Creatio.ai is locked. Contact your administrator to replenish Creatio.ai tokens.",
+      "ServiceAvailabilityError": "Servizio temporaneamente non disponibile. Riprova più tardi.",
+      "ExecutionError": "Si è verificato un errore durante l'elaborazione della richiesta. Riprova o chiedi aiuto all'amministratore.",
+      "ConfigurationError": "Rilevato problema di configurazione. Verificare le impostazioni di sistema o chiedere aiuto all'amministratore.",
+      "UnknownError": "Si è verificato un errore sconosciuto. Riprova più tardi o chiedi aiuto all'amministratore.",
+      "CharacterLimitExceededError": "The character limit in the user's query has been reached. Verify the system settings or ask the administrator for help."
+    },
+    "InputPlaceholder": "Inserisci un messaggio",
+    "SendButtonHint": "Invia Messaggio (Invio)",
+    "Caption": "Editor messaggi"
+  },
+  "ChatSettings": {
+    "ChatWindow": {
+      "Bots": {
+        "Name": "Creatio.ai"
+      }
+    },
+    "Channel": {
+      "ActiveChatsValidationError": "Il canale non può essere eliminato, ci sono chat attive o chat sulla distribuzione. Per favore completa le chat prima e riprova."
+    },
+    "History": {
+      "Captions": {
+        "StartDate": "Chat iniziata: {0} da",
+        "EndDate": "Chat completata: {0} da"
+      }
+    }
+  },
+  "SpecificationFilter": {
+    "NoData": "Nessun dato",
+    "Boolean": {
+      "Yes": "Si",
+      "No": "No"
+    },
+    "String": {
+      "Placeholder": "Inserisci testo"
+    },
+    "Numeric": {
+      "Placeholder": "Inserisci numero",
+      "To": "fino a",
+      "MaxValueError": "Il valore è superiore al valore massimo",
+      "MinValueError": "Il valore è inferiore al valore minimo"
+    }
+  },
+  "Conversation": {
+    "Caption": "Conversazione",
+    "Copilot": {
+      "TypingMessage": "Generazione risposta",
+      "Action": {
+        "Replace": "Sostituisci selezione",
+        "InsertAbove": "Inserisci sopra",
+        "InsertBelow": "Inserisci sotto"
+      }
+    },
+    "LoadPreviousChat": "Load previous chat"
+  },
+  "BulkActions": {
+    "Delete": "Elimina",
+    "Export": "Esporta in Excel",
+    "AddTag": "Aggiungi tag",
+    "RemoveTag": "Rimuovi tag",
+    "RowsSelection": {
+      "Selected": "selezionato",
+      "SelectAll": "Seleziona tutto",
+      "ClearSelection": "Annulla selezione"
+    }
+  },
+  "Breadcrumbs": {
+    "AriaLabel": "Breadcrumbs"
+  },
+  "ButtonToggleGroup": {
+    "ButtonToggleGroupItem": {
+      "NotificationsPostfix": "with notifications"
+    }
+  },
+  "NumberInput": {
+    "AriaLabel": "Numero"
+  },
+  "ExpansionPanel": {
+    "Collapse": "Riduci",
+    "Expand": "Espandi"
+  },
+  "ProgressBar": {
+    "AriaLabel": "Barra di avanzamento"
+  },
+  "OperatorState": {
+    "ChatStatesMenuCaption": "Stato chat",
+    "CtiStatesMenuCaption": "Telephony status"
+  },
+  "IndicatorWidget": {
+    "NoData": "N/A",
+    "AriaDescription": "{{chartTitle}}. The chart type is Metric. The current value is {{ariaValue}}. Use the enter or white space keys to drill down the element."
+  },
+  "ChartLegend": {
+    "Title": "Legenda per il grafico {{chartTitle}}: usa i tasti freccia per navigare e il tasto Inserisci per aprire il menu contestuale."
+  },
+  "ChartJsScreenReaderPlugin": {
+    "Description": "{{chartType}} chart for \"{{chartTitle}}\" with {{groupsCount}} groups. The chart showing \"{{groupsNames}}\". X is \"{{xLabel}}\" from {{xMin}} to {{xMax}}. Y is \"{{yLabel}}\" from {{yMin}} to {{yMax}}. Use arrow keys to navigate.",
+    "Tooltip": "{{xValue}}, {{yValue}}, {{label}}. Use Enter key to open context menu."
+  },
+  "GaugeWidget": {
+    "AriaDescription": "{{chartTitle}}. The chart type is Gauge. Data ranges from {{ariaMin}} to {{ariaMax}}. The current value is {{ariaValue}}. Use the enter or white space keys to drill down the element."
+  },
+  "HeaderWidget": {
+    "Fullscreen": {
+      "ExpandLabel": "Expand fullscreen for \"{{title}}\" chart.",
+      "CollapseLabel": "Collapse fullscreen for \"{{title}}\" chart."
+    },
+    "Menu": {
+      "Caption": "Menu for \"{{title}}\" chart."
+    }
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Seleziona il valore dalla lista",
+      "SelectionWindowMessage": "Seleziona il valore dalla lista o cercalo usando la finestra di lookup"
+    },
+    "Required": {
+      "Message": "Inserisci un valore"
+    },
+    "MaxLength": {
+      "Message": "Lunghezza massima del testo superata ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Lunghezza minima del testo non raggiunta ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Formato data e ora non valido"
+    },
+    "DatePickerSyntax": {
+      "Message": "Formato data non valido"
+    },
+    "TimePickerSyntax": {
+      "Message": "Formato orario non valido"
+    },
+    "RegExp": {
+      "Message": "Formato valore non valido"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Il codice deve iniziare con il prefisso {{schemaNamePrefix}}.",
+      "OnlySchemaNamePrefixMessage": "Inserisci almeno un altro simbolo."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Usa i simboli: a-z, A-Z, 0-9, trattino basso o trattino. Solo le lettere possono essere le prime."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "The value '{{controlValue}}' already exists in the 'Code' column."
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Colonna rimossa",
+    "ValidationErrorMessageSingleErrorField": "Campo: {0}. Errore: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Campi: {0}. Errore: {1}",
+    "RefreshModelDataConflict": "Creatio ha nuovi dati per la pagina corrente. Per visualizzarli, salva o annulla le modifiche e aggiorna la pagina.",
+    "WarningModelsWithCircularDependencies": "Alcuni modelli hanno dipendenze circolari e non sono stati caricati",
+    "LoadingModelErrorMessage": "Errore durante l'esecuzione della query"
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Data has been refreshed"
+  },
+  "DesktopSelector": {
+    "ShowDesktopSelector": "Seleziona desktop",
+    "EditDesktop": "Modifica desktop",
+    "UseHotkeys": "Use Ctrl+Shift+E to edit desktop"
+  },
+  "BaseRelatedInMainRecordsService": {
+    "NotValidParametersMessage": "Parametri non validi",
+    "ServiceResult": {
+      "ErrorMessage": "Si è verificato un errore. Si prega di contattare l'amministratore di sistema"
+    }
+  },
+  "TaggingService": {
+    "ServiceResult": {
+      "AddTagsMessage": "{{ count }} elemento/i contrassegnato/i",
+      "RemoveTagsMessage": "{{ count }} elemento/i non contrassegnato/i",
+      "AddTagsSuccessfulRunProcess": "Il processo di tagging massivo è stato avviato per gli elementi selezionati. Potrebbe richiedere un po' di tempo",
+      "RemoveTagsSuccessfulRunProcess": "Il processo di rimozione tag massivo è stato avviato per gli elementi selezionati. Potrebbe richiedere un po' di tempo"
+    }
+  },
+  "StaticFolderService": {
+    "ServiceResult": {
+      "AddRecordsMessage": "{{ count }} elementi sono stati aggiunti alla cartella",
+      "RemoveRecordsMessage": "{{ count }} elementi sono stati rimossi dalla cartella"
+    }
+  },
+  "RunProcessHandler": {
+    "ProcessHasStarted": "L'azione è iniziata con successo",
+    "CannotRunProcess": {
+      "NoRecordsSelected": "Questa azione richiede almeno un record da eseguire. Seleziona i record a cui vuoi applicarlo e riprova"
+    }
+  },
+  "ConfirmationDialog": {
+    "DeleteRecordConfirmation": "Sei sicuro di voler eliminare il record selezionato?",
+    "DeleteRecordsConfirmation": "Sei sicuro di voler eliminare i record selezionati?",
+    "SaveDataGridConfigsForAllUsers": "New default list settings will be saved for all users. Continue?",
+    "ResetDataGridConfigsToDefault": "Ripristinare le impostazioni della lista predefinite?",
+    "ClearDataGridConfigsForActiveFolder": "Cancella le impostazioni della lista per \"{0}\"?",
+    "SaveSummariesForAll": "Save summary settings for all users?",
+    "ResetSummaries": "Restore default summary settings?"
+  },
+  "InfoDialog": {
+    "RightLevelWarningMessage": "Diritti insufficienti per eliminare record dall'oggetto {0}",
+    "UnableToDeleteSelectedRecord": "Impossibile eliminare i record selezionati",
+    "SelectRecordsToDelete": "Seleziona i record da eliminare",
+    "SettingsErrorMessage": "Impossibile eseguire l'azione.\n\nL'amministratore di sistema deve controllare le impostazioni del pulsante nel Designer Freedom UI.",
+    "ExportToExcel": {
+      "PermissionsErrorMessage": "Non hai i permessi per eseguire questa operazione.\nSi prega di contattare l'amministratore di sistema. Controllare l'accesso all'oggetto di esportazione e il permesso di eseguire l'operazione di sistema.",
+      "FileGenerationMessage": "Generating export file"
+    },
+    "OpenChangeLog": {
+      "PermissionsErrorMessage": "Permessi insufficienti per accedere al registro delle modifiche. Contattare il proprio amministratore di sistema.",
+      "SourceIsNotSpecifiedMessage": "L'oggetto o la sorgente dati non è specificata per l'azione \"Apri registro delle modifiche\". Contatta l'amministratore di sistema.",
+      "RecordIsNotSelectedMessage": "Seleziona un record per aprire il suo registro delle modifiche.",
+      "ChangeLogIsNotTurnedOnTitle": "Attiva il logging",
+      "ChangeLogIsNotTurnedOnMessage": "La registrazione è attualmente disattivata per {0}. Vuoi attivare la registrazione?",
+      "ChangeLogIsTurnedOffMessage": "La registrazione è attualmente disattivata per {0}. Contatta l'amministratore di sistema.",
+      "RecordIsNotSavedMessage": "Salva prima un record per aprire il suo registro delle modifiche."
+    },
+    "FileUpload": {
+      "SizeValidationMessage": "Limite massimo {0} MB di dimensione del file superato.\n\n\r File:\n- {1}",
+      "NoConnectedFileList": "La destinazione di caricamento del file non è impostata.\n\rSi prega di scegliere la destinazione nelle impostazioni del pulsante.",
+      "InvalidRequestParams": "Impossibile caricare i file in quanto il componente della pagina non è ancora stato configurato. L'amministratore di sistema può terminare la configurazione nel Freedom UI designer.",
+      "ChangeFileSizeInfoMessage": "È possibile aumentare la dimensione massima del file nel impostazione di sistema “dimensione massima allegato”.",
+      "FileListHeader": "File",
+      "MaxFileSizeExceededExceptionMessage": "Il limite di dimensione massima del file di {0} MB è stato superato.",
+      "UnknownServerError": "Qualcosa è andato storto.\n\rProva a caricare nuovamente il file.",
+      "AttachedToUnsavedRecord": "Impossibile allegare i file al record che non è stato ancora creato. Si prega di creare il record prima di caricare i file",
+      "InvalidExtension": {
+        "Deny": "L'estensione del file [{0}] è vietata dalle impostazioni di sicurezza. Se hai bisogno di lavorare con tali file, contatta l'amministratore di sistema per rimuovere l'estensione dall'impostazione di sistema [File extensions DenyList] (FileExtensionsDenyList)",
+        "Allow": "L'estensione del file [{0}] è vietata dalle impostazioni di sicurezza. Se hai bisogno di lavorare con tali file, contatta l'amministratore di sistema per aggiungere l'estensione all'impostazione di sistema [Estensioni file AllowList] (FileExtensionsAllowList)"
+      },
+      "EmptyFileMessage": "Stai cercando di caricare file vuoti.\n\nScegli file con contenuto."
+    },
+    "ImageUpload": {
+      "MaxFileSizeExceededExceptionMessage": "Il limite di dimensione massima del file di {0} MB è stato superato.",
+      "UnknownUploadError": "Errore di caricamento sconosciuto. Si prega di contattare l'amministratore di sistema.",
+      "Announcement": {
+        "Uploaded": "Image uploaded",
+        "Deleted": "Image deleted"
+      }
+    },
+    "SetRecordRights": {
+      "SettingsErrorMessage": "Errore di azione.\nContatta l'amministratore di sistema. Controlla le impostazioni di azione in Designer di sistema."
+    },
+    "OpenPage": {
+      "SettingsErrorMessage": "Errore di azione.\nContatta l'amministratore di sistema. Controlla le impostazioni di azione in Designer di sistema."
+    },
+    "TagsInRecords": {
+      "SelectRecordsToAddRecordsMessage": "Seleziona record a cui aggiungere tag",
+      "SelectRecordsToRemoveRecordsMessage": "Seleziona i record a cui rimuovere i tag"
+    },
+    "RecordsInStaticFolders": {
+      "SelectRecordsToAddRecordsMessage": "Seleziona i record da aggiungere alla cartella statica",
+      "SelectRecordsToRemoveRecordsMessage": "Selezionare i record da rimuovere dalla cartella statica"
+    },
+    "FileAnnouncement": {
+      "Uploaded": "{0} file uploaded",
+      "Deleted": "{0} file deleted"
+    }
+  },
+  "OpenTagLookupPage": {
+    "AddTagCaption": "Aggiungi tag",
+    "RemoveTagCaption": "Rimuovi tag"
+  },
+  "PrintablesHandler": {
+    "PrintForUnsavedRecordCaption": "Il report non può essere stampato per un record non salvato.",
+    "InvalidRequestCaption": "Azione non valida. Controlla le impostazioni di stampa.",
+    "SelectRecord": "Seleziona record per stampare il report"
+  },
+  "MoveSelectedItemsHandler": {
+    "SelectAllIsNotAllowedMessage": "Non è possibile spostare tutti i record selezionati da questa azione, si prega di selezionare tutti i record necessari uno per uno"
+  },
+  "MarketingCampaignContent": {
+    "ValidateCampaignRequest": {
+      "StartDateRequiredMessage": "Specificare data e ora d'avvio della campagna",
+      "StartDateLessThenNowMessage": "La data di inizio e l'ora programmata della campagna sono già passati. Si prega di impostare un valore corretto",
+      "StopDateRequiredMessage": "Specificare data e ora di fine della campagna",
+      "StopDateLessThenNowMessage": "La data e l'ora di fine programmata della campagna sono già passati. Si prega di impostare un valore corretto",
+      "StopDateLessThenStartDateMessage": "La data programmata di fine della campagna è precedente alla data di inizio. Si prega di impostare i valori correttamente",
+      "StopDateLessThenNextFireTimeMessage": "La data programmata di fine della campagna è precedente alla data di inizio. Si prega di impostare i valori correttamente"
+    },
+    "StopCampaignRequest": {
+      "StopConfirmationMessage": "Sei sicuro di voler fermare la campagna?",
+      "SuccessMessage": "Campagna interrotta con successo",
+      "ErrorMessage": "Si è verificato un errore durante l'operazione di arresto della campagna"
+    },
+    "StartCampaignRequest": {
+      "ScheduleConfirmationMessage": "Sei sicuro di voler programmare la campagna?",
+      "LaunchConfirmationMessage": "Sei sicuro di voler iniziare la campagna?",
+      "SuccessMessage": "Campagna lanciata con successo",
+      "ErrorMessage": "Errore durante l'operazione di avvio della campagna"
+    },
+    "DeleteCampaignRequest": {
+      "HasAudienceMessage": "Impossibile eliminare la campagna in quanto include i partecipanti",
+      "InStatusActiveMessage": "La campagna in stato attivo non può essere eliminata. Si prega di fermare la campagna prima di eliminare",
+      "InStatusStoppingMessage": "La campagna in stato di arresto non può essere eliminata. Attendere un po' che la campagna si fermi prima di eliminarla",
+      "InStatusScheduledMessage": "La campagna nello stato pianificato non può essere cancellata. Si prega di fermare la campagna prima di eliminare",
+      "MultipleHasAudienceMessage": "Impossibile eliminare le campagne selezionate in quanto contengono partecipanti",
+      "MultipleIncorrectStateMessage": "Impossibile eliminare le campagne selezionate in quanto alcune di esse sono in uno stato non corretto"
+    }
+  },
+  "PrintablesMenuItemsPreprocessor": {
+    "NoAvailablePrintablesCaption": "Non ci sono report disponibili",
+    "GoToPrintablesSetupCaption": "Vai alla configurazione del report"
+  },
+  "MarketingEmailContent": {
+    "AddBulkEmailAudienceRequest": {
+      "LookupPageCaption": "Aggiungi contatti all'email massive",
+      "ImportStartedMessage": "Importazione dell'audience iniziata. Il processo potrebbe richiedere un po' di tempo. Ti aggiorneremo nel pannello Notifiche una volta terminato.",
+      "ErrorMessage": "Si è verificato un errore durante l'importazione dell'audience",
+      "EmptyFilterMessage": "Non è possibile aggiungere audience senza l'utilizzo di un filtro. Si prega di selezionare qualche cartella o record specifici"
+    },
+    "RemoveBulkEmailAudienceRequest": {
+      "DeleteAllRecordsConfirmation": "Sei sicuro di voler eliminare tutto l'audience dall'email?",
+      "RemoveStartedMessage": "Rimozione dell'audience iniziata",
+      "UnableToRemoveRecords": "Si è verificato un errore durante la rimozione dell'audience",
+      "EmptyFilterMessage": "Impossibile rimuovere l'audience senza l'utilizzo di filtri. Si prega di selezionare record specifici"
+    },
+    "OpenEmailPageRequest": {
+      "RedirectQuestionMessage": "L'email di massa selezionata è stata creata nella sezione Email di massa dell'interfaccia Classic. Vuoi essere reindirizzato ad essa?",
+      "RedirectCaption": "Reindirizzamento"
+    },
+    "ScheduleSendingTab": {
+      "ScheduleInfoMessage": "This email is scheduled to be sent at {0}, adjusted to your"
+    },
+    "SendTestEmailPage": {
+      "DefaultLabel": "Predefinito"
+    },
+    "ContactSubscribeToBulkEmailsRequest": {
+      "AnnounceMessage": "{0} is subscribed."
+    },
+    "ContactUnsubscribeFromBulkEmailsRequest": {
+      "AnnounceMessage": "{0} is unsubscribed."
+    }
+  },
+  "MarketingEngagementToolsContent": {
+    "ConnectFacebookForm": {
+      "IntegrationSetupError": "La generazione di lead di Facebook è attualmente inattiva. L'amministratore di sistema può abilitare l'integrazione di Facebook",
+      "IntegrationWindowError": "Le finestre pop-up sono attualmente bloccate dalle impostazioni del browser. Si prega di abilitare i pop-up per procedere",
+      "DefaultSubscriptionError": "Qualcosa è andato storto. Riprova a collegare il modulo"
+    }
+  },
+  "MarketingEventContent": {
+    "AddEventAudienceRequest": {
+      "LookupPageCaption": "Aggiungi contatti all'evento",
+      "ImportStartedMessage": "Importazione dell'audience iniziata. Il processo potrebbe richiedere un po' di tempo. Ti aggiorneremo nel pannello Notifiche una volta terminato.",
+      "ErrorMessage": "Si è verificato un errore durante l'importazione dell'audience",
+      "EventNotSavedMessage": "L'evento deve essere salvato prima",
+      "EmptyFilterMessage": "Non è possibile aggiungere audience senza l'utilizzo di un filtro. Si prega di selezionare qualche cartella o record specifici"
+    },
+    "RemoveEventAudienceRequest": {
+      "RemoveStartedMessage": "Rimozione dell'audience iniziata",
+      "UnableToRemoveRecords": "Si è verificato un errore durante la rimozione dell'audience",
+      "EmptyFilterMessage": "Impossibile rimuovere l'audience senza l'utilizzo di un filtro. Si prega di selezionare record specifici",
+      "DeleteAllRecordsConfirmation": "Sei sicuro di voler eliminare tutta l'audience dall'evento?"
+    }
+  },
+  "ResendWebhooks": {
+    "SuccessMessage": "Undelivered webhooks receiving process started successfully.",
+    "ErrorMessage": "Failed to start undelivered webhook receiving process."
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Non c'è nessuna pagina per il record nuovo o esistente. L'amministratore di sistema deve controllare le impostazioni del pulsante nella Freedom UI",
+    "GoToEntityDesignerMessage": "Per impostare le pagine vai all'URL: {0}"
+  },
+  "Copilot": {
+    "RewriteActionsPrompt": {
+      "AskCopilot": "Aiuterai a riscrivere il seguente testo, ulteriori istruzioni saranno fornite nella finestra di dialogo",
+      "Friendly": "Riscrivi il seguente testo e rendilo più amichevole",
+      "Formal": "Riscrivi il seguente testo e rendilo più formale",
+      "Shorten": "Riscrivi il seguente testo e accorcialo",
+      "Extend": "Riscrivi il seguente testo e amplialo",
+      "Rephrase": "Riscrivi il seguente testo e riformulalo"
+    },
+    "DebugInfo": {
+      "NoDebugInfo": "Nessuna informazione di debug disponibile"
+    }
+  },
+  "DigitalAdsContent": {
+    "PlatformInputCaption": "Piattaforma",
+    "AppInputCaption": "Applicazione",
+    "AdPlatformLoginRequestTitle": "Collega la piattaforma pubblicitaria",
+    "NotEnoughPermissionsMessage": "Siamo spiacenti, non siamo in grado di connettere il tuo account pubblicitario. Per favore concedi i permessi massimi a Creatio e riprova.",
+    "PlatformUndefinedMessage": "Piattaforma indefinita, assicurati di configurare la piattaforma per il pulsante",
+    "ApplicationUndefinedMessage": "Applicazione non definita, assicurati di configurare la piattaforma per il pulsante",
+    "ImportFromAdPlatformStartedMessage": "L'importazione dei dati dagli account pubblicitari è stata avviata",
+    "NoConnectedAdAccountsFoundMessage": "Non ci sono account pubblicitari connessi per l'importazione",
+    "NoActiveAdAccountsFoundMessage": "Siamo spiacenti, ma non siamo riusciti a trovare alcun account pubblicitario a tua disposizione. Assicurati di avere accesso agli account richiesti sulla piattaforma. Solo gli account attivi possono essere collegati."
+  },
+  "GoogleAnalytics": {
+    "PlatformCaption": "Piattaforma",
+    "ApplicationCaption": "Applicazione",
+    "LoginRequestTitle": "Connetti Google Analytics",
+    "NotEnoughPermissionsMessage": "Siamo spiacenti, non siamo in grado di collegare il tuo account Google analytics. Per favore concedi il massimo dei permessi a Creatio e riprova.",
+    "PlatformUndefinedMessage": "Piattaforma indefinita, assicurati di configurare la piattaforma per il pulsante",
+    "ApplicationUndefinedMessage": "Applicazione non definita, assicurati di configurare la piattaforma per il pulsante"
+  },
+  "PageTools": {
+    "DesignButtonHint": "Modifica pagina",
+    "ExpandButtonTitle": "Espandi",
+    "CollapseButtonTitle": "Riduci"
+  },
+  "SkeletonLoader": {
+    "Loading": "In caricamento..."
+  },
+  "CopyClipboard": {
+    "Copied": "Copiato"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Niente da mostrare ancora ",
+      "Subhead": "Si prega di aggiungere i dati prima"
+    }
+  },
+  "MaskLoader": {
+    "Loading": "In caricamento"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Errore",
+      "Default": "Suggerimento"
+    }
+  },
+  "InterfaceDesigner": {
+    "PropertiesPages": {
+      "FolderTreePropertiesPage": {
+        "GeneralLabel": "Generale",
+        "SourceSchemaLabel": "Posizione di archiviazione cartella",
+        "RootSchemaLabel": "Cosa filtrerà le cartelle?",
+        "HeaderLabel": "Impostazioni cartella",
+        "AppearanceGroup": "Aspetto",
+        "BorderRadiusLabel": "Border radius",
+        "Sizes": {
+          "None": "Nessuno",
+          "Small": "Piccolo",
+          "Medium": "Media",
+          "Large": "Grande"
+        }
+      },
+      "FolderTreeActionsPropertiesPage": {
+        "HeaderLabel": "Impostazioni del menu di gestione cartelle",
+        "FolderTreeLabel": "Selezione albero cartelle",
+        "GeneralCaption": "Generale"
+      },
+      "SummariesPropertiesPage": {
+        "PageCaption": "Impostazioni riepilogo",
+        "GeneralGroup": {
+          "Caption": "Generale",
+          "SelectDataSource": "Sorgente dati"
+        }
+      },
+      "CalendarPropertiesPage": {
+        "MiniPageSchemaName": "Mini pagina per l'anteprima",
+        "TitleColumn": "Campo di visualizzazione principale",
+        "StartDateColumn": "Colonna data d'inizio",
+        "EndDateColumn": "Colonna data di fine",
+        "NotesColumn": "Campo con informazioni sui meeting online",
+        "PageCaption": "Impostazioni calendario",
+        "RequiredFieldError": "Questo campo è obbligatorio",
+        "SecondaryTileFields": "Campi secondari dei tile",
+        "AddSecondaryFieldCaption": "Aggiungi campo secondario",
+        "DisabledAddSecondaryFieldCaption": "Puoi aggiungere al massimo 4 campi secondari",
+        "AutoScrollToCurrentTime": "Scorri all'ora corrente automaticamente",
+        "SecondaryFieldContextMenu": {
+          "Delete": "Elimina"
+        },
+        "ColorizationType": {
+          "Default": "Predefinito",
+          "ByField": "Automatico",
+          "ByOwner": "Per Utente"
+        },
+        "ColorizationTypeCaption": "Modalità colorazione tile",
+        "ColorizationColumnCaption": "Lookup"
+      },
+      "ChatPropertiesPanel": {
+        "PageCaption": "Impostazioni chat",
+        "GeneralCaption": "Generale",
+        "TooltipCaption": "È possibile impostare questo elemento nel codice sorgente della pagina",
+        "OpenSourceCodeButtonCaption": "Apri il codice sorgente"
+      },
+      "ConversationPropertiesPanel": {
+        "PageCaption": "Impostazioni conversazione",
+        "GeneralCaption": "Generale"
+      },
+      "MessageEditorPropertiesPanel": {
+        "PageCaption": "Impostazioni editor messaggi",
+        "GeneralCaption": "Generale"
+      },
+      "EncryptedInputPropertiesPage": {
+        "PageCaption": "Stringa cifrata"
+      },
+      "TimelinePropertiesPanel": {
+        "PageCaption": "Impostazioni timeline",
+        "ObjectsCaption": "Oggetti",
+        "AddObject": "Aggiungi oggetto",
+        "ContextMenu": {
+          "Edit": "Modifica",
+          "Delete": "Elimina"
+        },
+        "GeneralGroup": "Generale",
+        "EmptyDataSourceHint": "La sorgente dati non è stata aggiunta alla pagina. Si prega di aggiungere una sorgente dati esistente per impostare il componente",
+        "BindToDataSourceCaption": "Sorgente dati",
+        "FiltrationCaption": "Opzioni di filtraggio",
+        "FilterCaption": {
+          "TimelineFilter_Entity": "Per tipo di record",
+          "TimelineFilter_Owner": "Per responsabile",
+          "TimelineFilter_Date": "Per data",
+          "TimelineFilter_SystemMessages": "Per messaggi di sistema"
+        }
+      },
+      "TimelineItemPropertiesPage": {
+        "GeneralGroup": "Generale",
+        "CaptionLabel": "Titolo",
+        "AppearanceGroup": "Aspetto",
+        "LinkedColumn": "Colonna collegata",
+        "SortedByColumn": "Ordina per",
+        "IconPosition": {
+          "OnlyIcon": "Solo icona"
+        },
+        "Feed": {
+          "ExternalUsersGroupCaption": "Utenti esterni",
+          "AllowExternalPostCaption": "Consenti la pubblicazione per utenti esterni"
+        },
+        "FiltrationGroup": "Opzioni di filtraggio",
+        "OwnerColumn": "Colonna per il filtraggio per responsabile"
+      },
+      "FeedPropertiesPage": {
+        "PageCaption": "Impostazioni feed",
+        "GeneralCaption": "Generale",
+        "FeedTypeCaption": "Come filtrare i record",
+        "FeedChannel": "Canale",
+        "FeedTypeGeneral": "Generale",
+        "FeedTypeChannel": "Canale",
+        "FeedTypeRecord": "Correlato al record",
+        "FeedDataSourceCaption": "Sorgente dati",
+        "FeedTypeUser": "Correlato all'utente",
+        "FeedTypeRecordTooltipCaption": "I messaggi di feed verranno visualizzati in base a specifiche comunicazioni di record.",
+        "FeedTypeGeneralTooltipCaption": "Tutte le notifiche e menzioni relative all'utente corrente. In questa modalità il feed mostrerà i post e i commenti in cui l'utente corrente è stato etichettato o le discussioni che sta seguendo. Ad esempio, il feed in questa modalità può essere aggiunto alla home page per non perdere informazioni importanti.",
+        "ExternalUsersGroupCaption": "Utenti esterni",
+        "AllowExternalPostCaption": "Consenti la pubblicazione per utenti esterni",
+        "ShowBlankSlateCaption": "Mostra tavola vuota"
+      },
+      "QuickFilterPropertiesPanel": {
+        "PageCaption": "Impostazioni filtro rapido",
+        "GeneralCaption": "Generale",
+        "AppearanceCaption": "Aspetto",
+        "ChooseFilterTypeLabel": "Scegli un tipo di filtro",
+        "CaptionLabel": "Titolo",
+        "HintLabel": "Suggerimento",
+        "CustomType": "Personalizzato",
+        "DateRangeType": "Date/Time",
+        "LookupType": "Lookup"
+      },
+      "CommunicationOptionsPropertiesPage": {
+        "PageCaption": "Impostazioni opzioni di comunicazione",
+        "GeneralGroup": "Generale",
+        "MasterRecordCaption": "Record per associare le opzioni di comunicazione",
+        "DataSourceEntityColumn": "Sorgente dati",
+        "Editability": "Editabilità",
+        "EditabilityControls": {
+          "Readonly": "Sola-lettura"
+        },
+        "LabelPositionCaption": "Posizione titolo",
+        "LabelPosition": {
+          "Auto": "Automatico",
+          "Left": "Sinistra",
+          "Above": "Sopra",
+          "Hidden": "Nascosto"
+        },
+        "ShowNoDataPlaceholder": "Mostra segnaposto quando non ci sono dati",
+        "AppearanceGroup": "Aspetto",
+        "ColumnsCountLabel": "Numero di colonne",
+        "ContactEntitySchemaName": "Opzioni di comunicazione del contatto",
+        "AccountEntitySchemaName": "Opzioni di comunicazione dell'azienda",
+        "EmptyDataSourceHint": "La sorgente dati non è stata aggiunta alla pagina. Si prega di aggiungere una sorgente dati esistente per impostare il componente"
+      },
+      "RichTextPropertiesPanel": {
+        "ToolbarDisplayMode": "Modalità di visualizzazione barra strumenti",
+        "Inline": "In Linea",
+        "Classic": "Classico",
+        "AlwaysShowToolbar": "Always show formatting options"
+      },
+      "AccountCompactProfilePropertiesPage": {
+        "PageCaption": "Impostazioni profilo compatto dell'account",
+        "GeneralGroup": "Generale",
+        "AttributeForReferenceColumn": "Sorgente dati",
+        "Editability": "Editabilità",
+        "EmptyAccountDataSourceHint": "La sorgente dati non è stata aggiunta alla pagina. Si prega di aggiungere una sorgente dati esistente per impostare il componente",
+        "EditabilityControls": {
+          "Readonly": "Sola-lettura"
+        }
+      },
+      "ContactCompactProfilePropertiesPage": {
+        "PageCaption": "Impostazioni profilo compatto del contatto",
+        "GeneralGroup": "Generale",
+        "AttributeForReferenceColumn": "Sorgente dati",
+        "Editability": "Editabilità",
+        "EmptyContactDataSourceHint": "La sorgente dati non è stata aggiunta alla pagina. Si prega di aggiungere una sorgente dati esistente per impostare il componente",
+        "EditabilityControls": {
+          "Readonly": "Sola-lettura"
+        }
+      },
+      "UserCompactProfilePropertiesPage": {
+        "PageCaption": "Impostazioni profilo utente",
+        "GeneralGroup": "Generale",
+        "AttributeForReferenceColumn": "Sorgente dati",
+        "Editability": "Editabilità",
+        "EmptyUserProfileDataSourceHint": "La sorgente dati non è stata aggiunta alla pagina. Si prega di aggiungere una sorgente dati esistente per impostare il componente",
+        "EditabilityControls": {
+          "Readonly": "Sola-lettura"
+        }
+      },
+      "NextStepsPropertiesPage": {
+        "PageCaption": "Impostazioni passi successivi"
+      },
+      "ApprovalPropertiesPage": {
+        "HeaderLabel": "Impostazioni approvazioni",
+        "SchemaNameLabel": "Quali record approvare?",
+        "GeneralGroup": "Generale",
+        "AppearanceGroup": "Aspetto",
+        "HiddenWhenNoData": "Nascosto quando non ci sono dati"
+      },
+      "ApprovalListPropertiesPage": {
+        "HeaderLabel": "Impostazioni elenco approvazioni",
+        "GeneralGroup": "Generale",
+        "SchemaNameLabel": "Oggetto"
+      },
+      "NextBestOfferPropertiesPage": {
+        "HeaderLabel": "Impostazioni delle migliori offerte successive",
+        "GeneralCaption": "Generale",
+        "DataSourceCaption": "Oggetto",
+        "CaptionColumnField": "Didascalia",
+        "DescriptionColumnField": "Descrizione",
+        "InfoLabelColumnField": "Lookup info",
+        "ImageColumnField": "Immagine",
+        "NumberTagColumnField": "Etichetta",
+        "SortingFieldTooltip": "Gli elementi saranno ordinati per valore da questo campo in ordine decrescente.",
+        "AdditionalCaption": "Ulteriore",
+        "SpecificPageLookupField": "Quale pagina aprire?",
+        "UseSpecificPageField": "Apri una pagina specifica cliccando sulla didascalia",
+        "SpecificPageRecordIdField": "Identificativo del record",
+        "ViewModeCaption": "Modalità visualizzazione",
+        "CarouselViewMode": "Carousel",
+        "GalleryViewMode": "Galleria"
+      },
+      "MultiSelectPropertiesPage": {
+        "HeaderLabel": "Impostazioni della multiselezione lookup",
+        "GeneralGroup": {
+          "General": "Generale",
+          "SelectLookup": "Seleziona lookup",
+          "MultiselectValueStorage": "Archiviazione valori multiselezione",
+          "SelectColumn": "Colonna da visualizzare"
+        },
+        "AppearanceCaption": "Aspetto",
+        "LabelPositionVariants": {
+          "Auto": "Automatico",
+          "Left": "Sinistra",
+          "Above": "Sopra",
+          "Hidden": "Nascosto"
+        },
+        "TitleOnPage": "Titolo nella pagina",
+        "Placeholder": "Segnaposto",
+        "Tooltip": "Suggerimento",
+        "LabelPosition": "Posizione titolo",
+        "EnableAddRecordCaption": "Abilita l'aggiunta di nuovi valori",
+        "WrapCaption": "Wrapping items to the next line",
+        "Editability": "Editabilità",
+        "EditabilityControls": {
+          "Readonly": "Sola-lettura"
+        }
+      },
+      "MessageComposerSelectorPropertiesPage": {
+        "ContextMenu": {
+          "Edit": "Modifica",
+          "Delete": "Elimina"
+        },
+        "ChannelsCaption": "Canali",
+        "AddNewItem": "Aggiungi canale",
+        "PageCaption": "Compositore messaggi",
+        "DefaultChannelCaption": "Canale predefinito"
+      },
+      "EmailComposerPropertiesPage": {
+        "PageCaption": "Compositore email",
+        "GeneralCaption": "Generale",
+        "DefaultSenderType": "Mittente predefinito",
+        "DefaultMailbox": "Usa mailbox predefinita",
+        "CaseMailbox": "Usa mailbox di origine del caso"
+      }
+    }
+  },
+  "FolderTree": {
+    "AddFilter": "Aggiungi",
+    "AddFilterHint": "Aggiungi nuova cartella",
+    "BlankslateMessage": "Nessuna cartella",
+    "CloseFolderTree": "Nascondi cartelle",
+    "SetUpFilter": "Imposta filtro",
+    "DefaultFolderName": "Nuova cartella",
+    "CopyFolderSuffix": "Copia",
+    "DeleteConfirmation": "Sei sicuro di voler eliminare la cartella selezionata?",
+    "MenuActions": {
+      "AddFolder": "Aggiungi cartella",
+      "RenameFolder": "Rinomina",
+      "CopyFolder": "Copia",
+      "DeleteFolder": "Elimina",
+      "AddToFavorite": "Aggiungi ai preferiti",
+      "RemoveFromFavorite": "Elimina dai preferiti",
+      "ChangeFolderRights": "Configurare i diritti di accesso",
+      "AddStaticFolder": "Aggiungi cartella statica",
+      "ConvertToStaticFolder": "Convertire a cartella statica",
+      "MoveFolder": "Sposta"
+    },
+    "FavoritesNodeCaption": "Preferiti",
+    "ShowMenuActions": "Mostra azioni",
+    "CopyRightsQuestion": "Copiare i permessi di accesso della cartella \"{0}\"?",
+    "RootNodeCaption": "Tutto",
+    "HasNotPermission": "Non hai i permessi di accesso per questa operazione."
+  },
+  "FolderTreeFilters": {
+    "SaveButton": "Salva",
+    "CancelButton": "Annulla",
+    "DialogTitle": "Impostazione filtri"
+  },
+  "Components": {
+    "FolderTree": {
+      "Caption": "Cartelle",
+      "Hint": "Consente di configurare la struttura delle cartelle per organizzare i record in base ai filtri specificati. Per garantire che il componente funzioni come previsto, collegarlo nella pagina Elenco o nelle impostazioni di origine dati."
+    },
+    "FolderTreeActions": {
+      "Caption": "Menu gestione cartelle",
+      "Hint": "Richiede il componente Cartelle. Consente di mostrare le cartelle della pagina precedentemente nascoste."
+    },
+    "EncryptedInput": {
+      "Caption": "Stringa cifrata",
+      "EyeButtonCaption": "Show value"
+    },
+    "QuickFilter": {
+      "Caption": "Filtro rapido",
+      "DateRange": {
+        "Macros": {
+          "Yesterday": "Ieri",
+          "Today": "Oggi",
+          "Tomorrow": "Domani",
+          "PreviousWeek": "Settimana precedente",
+          "CurrentWeek": "Settimana corrente",
+          "NextWeek": "Prossima settimana",
+          "PreviousMonth": "Mese precedente",
+          "CurrentMonth": "Mese corrente",
+          "NextMonth": "Mese successivo",
+          "PreviousQuarter": "Trimestre precedente",
+          "CurrentQuarter": "Trimestre corrente",
+          "NextQuarter": "Prossimo trimestre"
+        }
+      }
+    },
+    "ColorPicker": {
+      "SelectedColor": "Selected color"
+    },
+    "Approval": {
+      "Caption": "Approvazioni"
+    },
+    "ApprovalList": {
+      "Caption": "Elenco approvazioni",
+      "RefreshCaption": "Aggiorna",
+      "ProvideDataSource": "Fornire la fonte di dati prima di utilizzare le approvazioni"
+    },
+    "NextBestOffer": {
+      "Caption": "Prossima migliore offerta",
+      "EmptyValue": "N/A",
+      "Next": "Successivo",
+      "Previous": "Precedente"
+    },
+    "MultiSelect": {
+      "Caption": "Selezione multipla lookup",
+      "Label": "Selezione multipla",
+      "CreateRecordButtonCaption": "Create record",
+      "ExpanderIcon": "Expand dropdown",
+      "OpenModalIcon": "Open modal window",
+      "TooltipInfoIcon": "Information tooltip",
+      "ReadonlyIcon": "Campo non-editabile"
+    },
+    "MessageComposer": {
+      "Caption": "Compositore messaggi",
+      "DesignerCustomEntities": {
+        "Email": {
+          "Caption": "Email"
+        },
+        "Feed": {
+          "Caption": "Feed"
+        },
+        "SelectChannelsCaption": "Seleziona canale"
+      }
+    }
+  },
+  "FolderTreeActions": {
+    "MenuButton": "Cartelle",
+    "FavoriteItemsMenuButtonAriaLabel": "Menu cartelle preferite",
+    "ClearButtonCaption": "Annulla selezione",
+    "FolderButtonAriaLabel": "Open/Close folder tree"
+  },
+  "StaticFolderConvertor": {
+    "AsyncConvertMessage": "Ti invieremo una notifica quando la conversione sarà completata."
+  },
+  "FolderTreeSelectFolder": {
+    "CancelButton": "Annulla",
+    "SelectFolderButtonCaption": "Seleziona",
+    "SelectFolderCaption": "Seleziona cartella"
+  },
+  "SummaryItemEditDialog": {
+    "DefaultTitle": "Riepilogo",
+    "Title": "Titolo",
+    "Column": "Colonna",
+    "Function": "Funzione",
+    "CustomSummaryLabelTooltip": "L'elemento contiene una logica di visualizzazione dei dati preconfigurata. Se è necessario implementare una logica alternativa, rimuovere il valore dell'elemento."
+  },
+  "Summaries": {
+    "Caption": "Riepiloghi",
+    "Actions": {
+      "CreateCount": "Mostra numero di record",
+      "Title": "Summaries actions"
+    },
+    "QuickSummaries": {
+      "QuickSetup": "Impostazioni rapide",
+      "Count": "Conta",
+      "Minimum": "Minimo",
+      "Maximum": "Massimo",
+      "Sum": "Somma",
+      "Average": "Medio"
+    },
+    "Hints": {
+      "NoDataSource": "Nessuna sorgente dati selezionata",
+      "Collapse": "Collapse summaries",
+      "Expand": "Expand summaries"
+    },
+    "ProfileActions": {
+      "SaveForAll": "Salva le impostazioni per tutti gli utenti",
+      "ResetToDefault": "Ripristina impostazioni predefinite",
+      "SaveForAllSuccessfully": "Summary settings saved for all users successfully",
+      "ResetToDefaultSuccessfully": "Default summary settings restored successfully"
+    },
+    "AdvancedSetup": {
+      "Title": "Impostazioni avanzate",
+      "Actions": {
+        "AddCustomSummary": "Aggiungi nuovo riepilogo"
+      }
+    }
+  },
+  "SummaryItem": {
+    "Actions": {
+      "Delete": "Elimina",
+      "Edit": "Modifica"
+    },
+    "AriaLabel": "Summary item",
+    "Statuses": {
+      "Added": "Summary item added successfully",
+      "Deleted": "Summary item deleted successfully",
+      "Edited": "Summary item changed successfully",
+      "Error": "Errore"
+    }
+  },
+  "Calendar": {
+    "ExtraEventsTemplate": "+{0}",
+    "ConfirmNextPage": "{0} record sono stati caricati. Caricare altri record?",
+    "ConfirmResendMeetingInvitationsQuestion": "Quando la riunione viene salvata, tutti i partecipanti riceveranno un aggiornamento della riunione. Vuoi procedere?",
+    "ConfirmResendMultipleMeetingsInvitationsQuestion": "Salvare alcune di queste riunioni richiede di inviare una notifica di modifica a tutti i partecipanti dopo il salvataggio. Vuoi continuare? Elenco riunioni:",
+    "ConfirmResendObsoleteMeetingInvitationsQuestion": "Il meeting si è svolto nel passato. Sei sicuro di voler inviare un invito ai partecipanti?",
+    "ConfirmResendOnSaveObsoleteMeetingInvitationsQuestion": "La riunione è già avvenuta. Tutti i partecipanti riceveranno un aggiornamento della riunione. Vuoi procedere?",
+    "CanNotChangeMeetingMessage": "Solo l'organizzatore della riunione può modificarne la descrizione, la data e l'elenco dei partecipanti.",
+    "CanNotChangeMultipleMeetingsMessage": "Alcune delle riunioni modificate possono essere modificate solo dall'organizzatore della riunione. Elenco riunioni: ",
+    "CanNotChangeMultipleMeetingsByFilterMessage": "È possibile eliminare le riunioni solo se si selezionano i record manualmente.",
+    "ErrorSendingInvitationMessage": "Gli inviti non sono stati inviati. Potrebbe essere un problema temporaneo, per favore riprova più tardi.",
+    "SuccessSendingInvitationMessage": "Inviti inviati con successo.",
+    "JoinBtnCaption": "Partecipa alla riunione online",
+    "UserAlreadyHasActiveCalendarAccount": "Hai già un calendario attivo",
+    "LackOfLicenseMessage": "La sincronizzazione del calendario non è inclusa nella licenza corrente. Contatta l'amministratore di sistema per ulteriori informazioni."
+  },
+  "CopilotDisclaimer": {
+    "AgreeButton": "Accetto"
+  },
+  "ChatMessage": {
+    "File": {
+      "DownloadLink": "Scarica file"
+    },
+    "System": {
+      "ChatStartedMessage": "Chat started: {chatStartedAt} by {chatStartedBy}"
+    }
+  },
+  "Dashboards": {
+    "SelectDashboard": "Select dashboard",
+    "NoData": "No associated dashboards to display",
+    "NoData2": "Add a dashboard to make it look prettier"
+  },
+  "DashboardsPropertiesPage": {
+    "PageCaption": "Impostazioni dashboard",
+    "GeneralGroup": {
+      "Caption": "Generale",
+      "DataSource": "Sorgente dati",
+      "DataSourceTooltip": "The data source will be set as primary data source for every dashboard created in this component",
+      "DataSourceDependenciesSettingTooltip": "Filter by page data lets you display connected data in a dashboard.",
+      "DataSourceFilterElementsGroupTooltip": "L'impostazione consente di utilizzare filtri pre-configurati dalle cartelle o da altri elementi di filtraggio dati come filtri di pagina."
+    },
+    "DashboardsGroup": {
+      "Caption": "Cruscotti",
+      "AddDashboard": "Add new dashboard",
+      "InfoTooltip": "The list of dashboards displays only those items that are schemas in configuration",
+      "ContextMenu": {
+        "Copy": "Copia",
+        "Delete": "Elimina",
+        "Edit": "Modifica"
+      }
+    }
+  },
+  "IFrameComponent": {
+    "Caption": {
+      "Title": "IFrame",
+      "Hint": "Il componente IFrame permette di incorporare e visualizzare il contenuto in formato HTML o URL"
+    },
+    "Placeholder": {
+      "NothingToShow": "Niente da mostrare ancora",
+      "NoContent": "Nessun contenuto disponibile in questa sezione"
+    },
+    "ContentUnavailable": {
+      "Title": "Contenuto non disponibile",
+      "SubTitle": "A causa delle impostazioni di rete, delle politiche di sicurezza del browser o delle restrizioni dei contenuti",
+      "AcademyLink": "https://academy.creatio.com/documents?id=2537",
+      "LinkTitle": "Scopri di più nell'Academy"
+    }
+  },
+  "PhoneInput": {
+    "CallButtonHint": "Richiama"
+  },
+  "Timeline": {
+    "TileHeads": {
+      "Call": {
+        "Called": "Chiamato",
+        "Sec": "sec",
+        "DetailsLinkCaption": "Dettagli chiamata"
+      },
+      "Email": {
+        "MailedTo": "Inviato a",
+        "From": "Da:",
+        "To": "A:",
+        "CC": "CC:",
+        "Details": "Dettagli",
+        "Hide": "Nascondi"
+      },
+      "File": {
+        "AddedFile": "Aggiunto un file"
+      },
+      "Chat": {
+        "ChatWith": "chattato con",
+        "Show": "Mostra la chat",
+        "Hide": "Nascondi la chat",
+        "DetailsLinkCaption": "Dettagli chat"
+      }
+    },
+    "NoDataMessage": "Il passato non esiste",
+    "FillActionMessage": "Non ci sono record associati da visualizzare nella timeline",
+    "NoDataByFilterMessage": "Non ci sono record che soddisfano i criteri di filtro",
+    "FillActionByFilterMessage": "Annulla il filtro o modifica le sue condizioni",
+    "EntityFilterCaption": "Tutto",
+    "OwnerFilterCaption": "Responsabile",
+    "DateFilterCaption": "Seleziona il periodo",
+    "HideSystemMessagesCaption": "Nascondi messaggi di sistema",
+    "EntityFilterHint": "Seleziona il tipo di record",
+    "OwnerFilterHint": "Seleziona responsabile del record",
+    "DateFilterHint": "Seleziona il periodo del record",
+    "HideSystemMessagesHint": "Nascondi email automatiche",
+    "DateSort": "Data",
+    "TileCaptions": {
+      "Email": {
+        "Caption": "Email"
+      },
+      "Feed": {
+        "Caption": "Feed"
+      },
+      "Task": {
+        "Caption": "Attività"
+      },
+      "SysFile": {
+        "Caption": "File"
+      }
+    },
+    "ARIA": {
+      "SortButton": {
+        "Title": "Sort by date button, currently sorted {0}",
+        "Descending": "decrescente",
+        "Ascending": "crescente"
+      }
+    }
+  },
+  "DateTimePicker": {
+    "AriaNextMonthLabel": "Mese successivo",
+    "AriaPrevMonthLabel": "Mese precedente",
+    "AriaNextYearLabel": "Anno successivo",
+    "AriaPrevYearLabel": "Anno precedente",
+    "Readonly": "Campo non-editabile",
+    "DateTimePickerIconTitle": "Date/Time",
+    "DatePickerIconTitle": "Calendario",
+    "TimePickerIconTitle": "Ora"
+  },
+  "Feed": {
+    "Caption": "Feed",
+    "SortByCreatedOn": "Ordina per data messaggio",
+    "SortByLastAction": "Ordina per data dell'ultima attività",
+    "ShowMoreThanOneNewSocialMessages": "Mostra {0} nuovi messaggi",
+    "ShowNewSocialMessage": "Mostra 1 nuovo messaggio",
+    "Publisher": {
+      "DefaultInputPlaceholder": "Pubblica un messaggio…",
+      "DisabledInputPlaceholder": "Non puoi creare nuovi post nella nuova pagina dei record.",
+      "CommentInputPlaceholder": "Scrivi un commento…",
+      "ShareWithPortal": "Condividi con l'utente del portale",
+      "PostingErrorMsg": "Errore durante il salvataggio del post",
+      "UserFeedInputPlaceholder": "Il feed è in modalità utente. Non puoi creare nuovi post in questa modalità.",
+      "SendButtonHint": "Invia Messaggio (Ctrl + Invio)",
+      "CancelButtonHint": "Annullare",
+      "PostingEmptyMsg": "Digitare un messaggio per continuare.",
+      "ExternalMessagesDisabled": "Si prega di notare che l'utente esterno non sarà in grado di leggere il messaggio, perché questa opzione è disabilitata nel tempo di progettazione dei componenti.",
+      "ConfirmMessageAccessLevelChange": "Si prega di confermare che si desidera modificare il livello di visibilità del post. Si prega di notare: il post, i commenti e gli allegati correlati diventeranno visibili agli utenti esterni.",
+      "ConfirmCommentAccessLevelChange": "Si prega di confermare che si desidera modificare il livello di visibilità del commento. Si prega di notare che il commento e gli allegati correlati diventeranno visibili agli utenti esterni."
+    },
+    "Post": {
+      "AddCommentButtonCaption": "Aggiungi commento",
+      "CommentsButtonCaption": "Commenti",
+      "CommentsButtonHint": "Mostra commenti",
+      "ExpandedCommentsButtonHint": "Nascondi commenti",
+      "PostedInLabel": "postato in"
+    },
+    "Reactions": {
+      "Like": "Mi piace",
+      "ExtraReactionsTemplate": "e {0} ancora...",
+      "PostLiked": "The feed post was liked.",
+      "LikeRemoved": "Like was removed from the feed post."
+    },
+    "Item": {
+      "Edit": "Modifica",
+      "Delete": "Elimina",
+      "DeletionConfirmation": "Sei sicuro di voler eliminare il record? Questa azione non può essere annullata.",
+      "DeletionErrorMsg": "Il record non è stato eliminato. Riprova più tardi."
+    },
+    "NoDataContainerLabel": "Così tranquillo!",
+    "ExternalUserTagCaption": "Esterno",
+    "ExternalUserTagTooltip": "Post per utenti esterni",
+    "DraftItemTagCaption": "Bozza",
+    "SortButtonCaption": "Ordina feed",
+    "ActionsButtonCaption": "Azioni"
+  },
+  "QuickFilterTargetsGroup": {
+    "Label": "Aggiungi componenti",
+    "Tooltip": "Per favore, aggiungi componenti"
+  },
+  "QuickFilterTarget": {
+    "DefaultValueCaption": "Valore predefinito",
+    "FilterColumnLabel": "Filtra colonna",
+    "ViewAttributeLabel": "Componente da filtrare"
+  },
+  "CustomQuickFilterTarget": {
+    "EditFilterCaption": "Modifica filtro",
+    "SetupFilterCaption": "Impostazioni filtro",
+    "FiltersDialogCaption": "Filtro definito manualmente",
+    "DefaultCheckBoxState": {
+      "Label": "Stato predefinito della checkbox",
+      "CheckedCaption": "Selezionato",
+      "UncheckedCaption": "Deselezionato"
+    },
+    "FilteringApproachState": {
+      "Label": "Metodo di filtraggio",
+      "OnCheckedCaption": "Applica la condizione del filtro quando la casella è selezionata",
+      "OnUncheckedCaption": "Applica la condizione del filtro quando la casella è deselezionata"
+    }
+  },
+  "DateRangeQuickFilterTarget": {
+    "DefaultPeriodCaption": "Periodo predefinito",
+    "ChooseFilteringMethodCaption": "Scegli un metodo di filtraggio",
+    "ChooseFilteringMethodTooltip": "Il filtro può visualizzare i dati relativi al periodo specificato.\nUtilizzare la condizione \"Imposta filtro per una data\" per visualizzare i record che sono stati creati o modificati nel giorno specificato. Ad esempio, è possibile impostare questo filtro per visualizzare i lead per data di creazione, opportunità per data di chiusura o casi per data di soluzione.\n\nUtilizzare la condizione \"Imposta filtro per intervallo di date\" per visualizzare i record per i quali un intervallo di date è particolarmente rilevante. Ad esempio, è possibile impostare questo filtro per i contratti le cui date di inizio e fine rientrano nell'intervallo di date specificato.",
+    "SetUpByOneColumnTitle": "Imposta il filtro per una data",
+    "SetUpByTwoColumnsTitle": "Imposta filtro per intervallo di date",
+    "FilterColumnStartCaption": "Colonna filtro da",
+    "FilterColumnEndCaption": "Colonna filtro a"
+  },
+  "LookupQuickFilterTarget": {
+    "CurrentUserContactName": "Contatto dell'utente corrente",
+    "CurrentUserAccountName": "Account dell'utente corrente",
+    "EditFilterCaption": "Modifica filtro",
+    "SetupFilterCaption": "Impostazioni filtro",
+    "FiltersDialogCaption": "Filtro definito manualmente",
+    "TagVirtualColumnCaption": "Tag"
+  },
+  "QuickFilter": {
+    "MainTitle": "Filtro rapido",
+    "DateRange": {
+      "Macros": {
+        "Yesterday": "Ieri",
+        "Today": "Oggi",
+        "Tomorrow": "Domani",
+        "PreviousWeek": "Settimana precedente",
+        "CurrentWeek": "Settimana corrente",
+        "NextWeek": "Prossima settimana",
+        "PreviousMonth": "Mese precedente",
+        "CurrentMonth": "Mese corrente",
+        "NextMonth": "Mese successivo",
+        "PreviousQuarter": "Trimestre precedente",
+        "CurrentQuarter": "Trimestre corrente",
+        "NextQuarter": "Prossimo trimestre"
+      },
+      "RangeSeparator": "fino a",
+      "SelectDatePlaceholder": "Seleziona data",
+      "EmptyDateRangeStartLabel": "<Start date>",
+      "EmptyDateRangeEndLabel": "<Due date>",
+      "Header": {
+        "ArrowRight": "Mese successivo",
+        "ArrowLeft": "Mese precedente"
+      },
+      "RangeSelectedFrom": "Selected from",
+      "ClearIcon": "Clear selected range",
+      "ClearStartDatePlaceholder": "Clear selected start date",
+      "ClearEndDatePlaceholder": "Clear selected end date",
+      "EmptyDateRangeStartAriaLabel": "[No start date selected]",
+      "EmptyDateRangeEndAriaLabel": "[No end date selected]"
+    },
+    "Lookup": {
+      "NoData": "Nessun dato"
+    }
+  },
+  "CommunicationOptions": {
+    "DesignerPhoneLabel": "Numero di telefono",
+    "DesignerEmailLabel": "Indirizzo email",
+    "DesignerWebLabel": "Link web",
+    "Caption": "Opzioni di comunicazione",
+    "DeleteOption": "Elimina",
+    "Primary": "primario",
+    "Invalid": "non valido",
+    "MarkAsPrimary": "Imposta come primario",
+    "MarkAsValid": "Segna come valido",
+    "MarkAsInvalid": "Segna come non valido",
+    "Validations": {
+      "DuplicateNumberMessage": "{0} {1} esiste già",
+      "ReadOnlyStateMessage": "L'opzione di comunicazione non può essere aggiunta in quanto il componente è in modalità di sola lettura",
+      "IncorrectSetupComponentMessage": "Impossibile aggiungere l'opzione di comunicazione in quanto il componente della pagina non è ancora stato configurato. L'amministratore di sistema può terminare la configurazione nell'UI designer Freedom",
+      "EmptyMasterRecordColumnNameInRequestMessage": "L'opzione di comunicazione non può essere aggiunta a un record vuoto. Si prega di aggiungere prima il valore del record"
+    },
+    "NoDataPlaceholderText": "Nessun dato",
+    "Announcement": {
+      "Option": {
+        "Added": "{0} added",
+        "Deleted": "{0} {1} deleted",
+        "SetAsPrimary": "{0} {1}  set as primary",
+        "MarkedAsValid": "{0} {1} marked as valid",
+        "MarkedAsInvalid": "{0} {1} marked as invalid"
+      }
+    },
+    "ToolsAriaLabel": "Azioni"
+  },
+  "RichTextEditor": {
+    "ToggleToolbar": "Formatting options (Alt+F10)",
+    "UploadAttachments": "Seleziona allegati",
+    "SelectTemplate": "Inserisci modello",
+    "SelectionActions": {
+      "AskCopilot": "Ask Creatio.ai",
+      "Friendly": "Amichevole",
+      "Formal": "Formale",
+      "Shorten": "Abbrevia",
+      "Extend": "Estendi",
+      "Rephrase": "Riformula",
+      "RewriteCaption": "Riscrivi il testo"
+    },
+    "TableOfContents": {
+      "Title": "Table of contents",
+      "Placeholder": "A table of contents based on the headings on this page will appear here once it has been published."
+    }
+  },
+  "RichTextEditorLink": {
+    "SaveLinkButtonCaption": "Salva",
+    "OpenLinkButtonCaption": "Apri in una nuova scheda",
+    "CloseLinkButtonCaption": "Chiudi",
+    "UnlinkLinkButtonCaption": "Scollega",
+    "LinkLabelCaption": "Indirizzo del link",
+    "TextLabelCaption": "Testo da mostrare"
+  },
+  "RichTextEditorVideo": {
+    "DialogTitle": "Insert video",
+    "PasteUrlTab": "Paste url",
+    "UploadFileTab": "Carica file",
+    "EmbedCodeTab": "Embed code",
+    "DialogDescription": "This video will be embedded at 640 pixels wide.<br>This embedded video will include a text link.",
+    "SaveButton": "Insert video",
+    "CancelButton": "Annulla",
+    "UploadButton": "Carica file",
+    "InputPlaceholder": "Paste here",
+    "DragAndDropPlaceholder": "Drag-and-drop file here or",
+    "NotVideoFile": "The inserted file is not a video, please select a file with a video type.",
+    "ConfirmMessage": "Questa pagina contiene modifiche non salvate. Verranno perse se chiudi la pagina. Salvare le modifiche?"
+  },
+  "AccountCompactProfile": {
+    "Caption": "Profilo compatto dell'account",
+    "EmptyDisplayValue": "Nessun valore visualizzato",
+    "NamePlaceholder": "Aggiungi nome account",
+    "DesignerNamePlaceholder": "Nome account",
+    "AlternativeNamePlaceholder": "Noto anche come",
+    "CountryPlaceholder": "Paese",
+    "DialogTitle": "Modifica account",
+    "AlternativeNameFieldLabel": "Noto anche come",
+    "EmptyRecord": {
+      "NamePlaceholder": "Nome account",
+      "AlternativeNamePlaceholder": "Noto anche come",
+      "CountryPlaceholder": "Paese"
+    }
+  },
+  "ContactCompactProfile": {
+    "Caption": "Profilo compatto contatto",
+    "EmptyDisplayValue": "Nessun valore visualizzato",
+    "NamePlaceholder": "Aggiungi nome contatto",
+    "DesignerNamePlaceholder": "Nome contatto",
+    "BirthDatePlaceholder": "e data di nascita",
+    "DesignerBirthDatePlaceholder": "Data di nascita",
+    "CountryPlaceholder": "Paese",
+    "DialogTitle": "Modifica contatto",
+    "EmptyRecord": {
+      "NamePlaceholder": "Nome contatto",
+      "BirthDatePlaceholder": "Data di nascita",
+      "CountryPlaceholder": "Paese"
+    }
+  },
+  "UserCompactProfile": {
+    "Caption": "Profilo utente compatto",
+    "DialogTitle": "Modifica nome",
+    "EmptyDisplayValue": "Nessun valore visualizzato",
+    "NamePlaceholder": "Aggiungi il nome utente"
+  },
+  "BaseCompactProfile": {
+    "DialogClose": "Chiudi"
+  },
+  "EntityHierarchyFilterPropertiesPanel": {
+    "HeaderLabel": "Filtro gerarchia entità",
+    "GeneralCaption": "Generale",
+    "SchemaNameCaption": "Seleziona un oggetto per costruire una gerarchia",
+    "HierarchySetup": "Impostazioni gerarchia",
+    "SchemaNameSelectTooltip": "Selezionare un oggetto su cui costruire la gerarchia. Tutti gli oggetti di sistema vengono visualizzati nel menu a tendina. Dopo aver configurato la gerarchia, collegala al componente Lista specificandolo come filtro pre-configurato.",
+    "ApplyStaticFilter": "Applica filtro statico",
+    "EditStaticFilterAction": "Modifica filtro",
+    "FiltersDialogCaption": "Filtro definito manualmente",
+    "SetupStaticFilterAction": "Impostazioni filtro"
+  },
+  "EntityHierarchySetupContainerPropertiesPanel": {
+    "AddNewItem": "Aggiungi una nuova colonna gerarchica",
+    "ContextMenu": {
+      "AddToSubmenu": "Aggiungi sottogerarchia",
+      "Edit": "Modifica",
+      "Delete": "Elimina"
+    }
+  },
+  "EntityStageProgressBar": {
+    "ChangeStageProcessButtonHint": "Cambia caso DCM. C'è una configurazione più rilevante per questa entità.",
+    "ConfirmChangeCaseDialogMessage": "Vuoi sostituire la versione corrente del caso?",
+    "SnackbarActualFilterCaseMessage": "C'è un caso più rilevante \"{{caption}}\". Sostituire?",
+    "SnackbarIgnoreButtonCaption": "Ignora",
+    "SnackbarReplaceButtonCaption": "Sostituisci",
+    "SnackbarEntityProcessChangedMessage": "Il caso è stato modificato con successo."
+  },
+  "EntityHierarchyFilter": {
+    "AllFilterCaption": "Tutto",
+    "NotFilledNode": "Non compilato",
+    "SpecificationFilterCaption": "Apri filtro aggiuntivo",
+    "BackButtonCaption": "Indietro",
+    "ClearAllFiltersButtonCaption": "Cancella tutto"
+  },
+  "IncomingItemList": {
+    "NoDataLabel": "Niente da mostrare qui!",
+    "NoDataDescription": "Currently there are no items in your queue",
+    "AcceptButtonLabel": "Accept"
+  },
+  "NextSteps": {
+    "Caption": "Prossime attività",
+    "CompleteButtonCaption": "Completo",
+    "AddNewStepMenuCaption": "Aggiungi un nuovo passo",
+    "CreateActivityButtonCaption": "Crea un'attività",
+    "CreateEmailButtonCaption": "Creare un Email",
+    "NoDataContainerLabel": "Niente da mostrare qui!",
+    "NoDataContainerDescription": "Non ci sono passaggi aggiunti per questa fase",
+    "OwnerHint": "Utente assegnato",
+    "OwnerRoleHint": "Gruppo assegnato",
+    "RequiredStepHint": "Passo obbligatorio",
+    "ApprovalApprovedSnackbarCaption": "La richiesta è stata approvata",
+    "ApprovalRejectedSnackbarCaption": "La richiesta è stata respinta"
+  },
+  "PropertiesPages": {
+    "BaseInputPropertiesPanel": {
+      "ColorPicker": {
+        "PageCaption": "Selettore colore",
+        "AppearanceGroup": "Aspetto",
+        "PickerModeRadioButtonCaption": "Palette",
+        "PickerMode": {
+          "Basic": "Palette di base",
+          "Extended": "Palette estesa"
+        }
+      }
+    }
+  },
+  "Approvals": {
+    "ComponentHeaderLabel": "Approvazioni",
+    "ComponentHeaderInactiveLabel": "Nessuna approvazione richiesta",
+    "RejectDialogHeaderLabel": "Sei sicuro di voler negare l'approvazione?",
+    "RejectInputLabel": "Commento approvazione",
+    "RejectButtonLabel": "Rifiuta",
+    "CancelButtonLabel": "Annulla",
+    "ApproveDialogHeaderLabel": "Concedere approvazione?",
+    "ApproveButtonLabel": "Approva",
+    "PositiveMetricLabel": "Positivo",
+    "NegativeMetricLabel": "Negativo",
+    "PendingMetricLabel": "In sospeso",
+    "ComponentHeaderActiveLabel": "In attesa della tua approvazione",
+    "ApprovalPurposeLabel": "Scopo dell'approvazione",
+    "ApprovedPlaceholderLabel": "APPROVATO",
+    "DesignTime": {
+      "ApprovalObjective": "Approvazione richiesta"
+    },
+    "RejectedPlaceholderLabel": "RESPINTO",
+    "DelegateButtonLabel": "Delega"
+  },
+  "ApprovalList": {
+    "RejectButtonLabel": "Rifiuta",
+    "ApproveButtonLabel": "Approva"
+  },
+  "MessageComposer": {
+    "CancelButtonHint": "Annulla",
+    "CancelButtonText": "Annulla",
+    "SaveDraftButtonText": "Salva bozza",
+    "SendButtonHint": "Invia Messaggio (Ctrl + Invio)",
+    "MessageSent": "Messaggio inviato",
+    "SendButtonText": "Invia",
+    "RemoveAttachmentHint": "Rimuovi allegato",
+    "Caption": "Compositore messaggi",
+    "Email": {
+      "Caption": "Compositore email",
+      "From": "Da",
+      "To": "A",
+      "CC": "CC",
+      "BCC": "CCn",
+      "Subject": "Oggetto",
+      "PublishError": "Invio di un messaggio non riuscito. È stato ricevuto il seguente errore: {0}",
+      "SaveDraftError": "Impossibile salvare la bozza. Riprova più tardi",
+      "TemplateInsertError": "Impossibile aggiungere il modello. Riprova più tardi.",
+      "AttachmentsSizeLimitReached": "La dimensione totale degli allegati è superiore a quella consentita {0} MB. Rimuovere alcuni allegati.",
+      "FromValidationErrorMessage": "Il campo “Da” non può essere vuoto. Si prega di selezionare una casella di posta.",
+      "ToValidationErrorMessage": "Il campo “A” non può essere vuoto. Inserisci almeno un destinatario.",
+      "SubjectValidationErrorMessage": "Il campo “Oggetto” non può essere vuoto. Inserisci l'oggetto email.",
+      "Draft": "Bozza",
+      "BodyPlaceholder": "Inserisci un messaggio",
+      "Reply": "Rispondi",
+      "ReplyAll": "Rispondi a tutti",
+      "Forward": "Inoltra",
+      "SentOn": "Inviata il",
+      "SubjectToggleCaption": "Oggetto",
+      "CcToggleCaption": "CC",
+      "BccToggleCaption": "CCn",
+      "NotContainsEmail": "non contiene email in esso",
+      "ChangeReplyAction": "Cambia azione risposta",
+      "ShowTrimmedEmailTitle": "Mostra email tagliata",
+      "EmailTemplatesLookupCaption": "Seleziona un modello",
+      "EmailTemplatesDisplayColumnCaption": "Nome del modello",
+      "ContinueEditing": "Continua la modifica",
+      "SaveDraft": "Salva bozza",
+      "DraftSaved": "Bozza salvata",
+      "EmailSent": "Email inviata",
+      "RemoveRecipientLabel": "Rimuovi destinatario"
+    },
+    "Feed": {
+      "Caption": "Compositore del feed"
+    },
+    "Selector": {
+      "Caption": "Compositore messaggi"
+    },
+    "ComposerAreaLabel": "Area di input compositore messaggi",
+    "AttachmentPreview": "Attachment preview",
+    "Attachment": {
+      "Added": "The attachment was added.",
+      "Removed": "The attachment was removed."
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "Dialog": {
+    "ProcessSchemaSavedWithValidationError": "Схема процесу збережена успішно, але помилки валідації перешкоджають її виконанню."
+  },
+  "BaseViewModel": {
+    "RefreshModelDataConflict": "Creatio має нові дані для поточної сторінки. Щоб переглянути її, збережіть або скасуйте ваші зміни і оновіть сторінку.",
+    "WarningModelsWithCircularDependencies": "Деякі моделі мають циклічні залежності і не були завантажені",
+    "DataSourceAttributeRemoved": "Колонку видалено",
+    "ValidationErrorMessageSingleErrorField": "Поле: {0}. Помилка: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Поля: {0}. Помилка: {1}",
+    "LoadingModelErrorMessage": "Сталася помилка під час виконання запиту",
+    "ErrorMessageOnEmptyRelationColumn": "Неможливо зберегти сторінку. Заповніть значення поля {{caption}} або видаліть дані з пов'язаних полів."
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Будь ласка, оберіть значення зі списку",
+      "SelectionWindowMessage": "Будь ласка, виберіть значення зі списку або скористайтеся пошуком за допомогою вікна довідника"
+    },
+    "Required": {
+      "Message": "Введіть значення"
+    },
+    "MaxLength": {
+      "Message": "Перевищено допустиму довжину тексту ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Не досягнуто допустимої довжини тексту ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Неправильний формат дати і часу"
+    },
+    "DatePickerSyntax": {
+      "Message": "Неправильний формат дати"
+    },
+    "TimePickerSyntax": {
+      "Message": "Неправильний формат часу"
+    },
+    "RegExp": {
+      "Message": "Неправильний формат значення"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Код має починатися з префіксу {{schemaNamePrefix}}.",
+      "OnlySchemaNamePrefixMessage": "Введіть принаймні один символ."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Використовуйте символи: a-z, A-Z, 0-9, підкреслення або тире. Спочатку можуть бути лише літери."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "Значення '{{controlValue}}'' вже існує в колонці 'Code'."
+    }
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Дані були оновлені"
+  },
+  "SkeletonLoader": {
+    "Loading": "Завантаження..."
+  },
+  "CopyClipboard": {
+    "Copied": "Скопійовано"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Немає що показувати ",
+      "Subhead": "Будь ласка, спочатку додайте дані"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Чат розпочато: {0} ",
+        "EndDate": "Чат завершено: {0} "
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Завантаження"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Помилка",
+      "Default": "Підказка"
+    }
+  }
+}

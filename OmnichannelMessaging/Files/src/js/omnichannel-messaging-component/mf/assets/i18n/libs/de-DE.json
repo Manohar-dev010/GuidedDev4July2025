@@ -1,0 +1,86 @@
+{
+  "SkeletonLoader": {
+    "Loading": "Ladevorgang"
+  },
+  "CopyClipboard": {
+    "Copied": "Kopiert"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Noch nichts anzuzeigen ",
+      "Subhead": "Bitte zuerst Daten hinzufügen"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Chat gestartet: {0} von",
+        "EndDate": "Chat abgeschlossen {0} von"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Lädt"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Fehler",
+      "Default": "Tooltip"
+    }
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Bitte wählen Sie einen Wert aus der Liste",
+      "SelectionWindowMessage": "Bitte wählen Sie den Wert aus der Liste oder suchen Sie im Suchfenster"
+    },
+    "Required": {
+      "Message": "Wert eingeben"
+    },
+    "MaxLength": {
+      "Message": "Maximale Textlänge überschritten ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Minimale Textlänge nicht erreicht ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Ungültiges Datums- und Zeitformat"
+    },
+    "DatePickerSyntax": {
+      "Message": "Ungültiges Datumsformat"
+    },
+    "TimePickerSyntax": {
+      "Message": "Ungültiges Zeitformat"
+    },
+    "RegExp": {
+      "Message": "Ungültiges Wertformat"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Code muss mit dem {{schemaNamePrefix}} Präfix beginnen.",
+      "OnlySchemaNamePrefixMessage": "Geben Sie mindestens ein weiteres Zeichen ein."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Symbole verwenden: a-z, A-Z, 0-9, Unterstrich oder Bindestrich. Das erste Zeichen muss ein Buchstabe sein."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "The value '{{controlValue}}' already exists in the 'Code' column."
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Spalte entfernt",
+    "ValidationErrorMessageSingleErrorField": "Felder: {0}. Fehler: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Felder: {0}. Fehler: {1}",
+    "RefreshModelDataConflict": "Creatio hat neue Daten für die aktuelle Seite. Um sie anzuzeigen, speichern oder löschen Sie Ihre Änderungen und aktualisieren Sie die Seite.",
+    "WarningModelsWithCircularDependencies": "Einige Modelle haben zirkuläre Abhängigkeiten und wurden nicht geladen",
+    "LoadingModelErrorMessage": "Fehler bei der Ausführung der Abfrage"
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Data has been refreshed"
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Es gibt keine Seite für neue oder bestehende Aufzeichnungen. Systemadministrator muss die Einstellungen der Freiheits-Oberfläche überprüfen",
+    "GoToEntityDesignerMessage": "Um Seiten einzurichten, gehen Sie zu URL: {0}"
+  },
+  "Dialog": {
+    "ProcessSchemaSavedWithValidationError": "Das Prozessschema wurde erfolgreich gespeichert, aber Validierungsfehler verhindern, dass es ausgeführt wird."
+  }
+}

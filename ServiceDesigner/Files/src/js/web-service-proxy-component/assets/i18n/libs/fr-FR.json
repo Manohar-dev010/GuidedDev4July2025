@@ -1,0 +1,82 @@
+{
+  "Dialog": {
+    "ProcessSchemaSavedWithValidationError": "Le schéma de processus a été enregistré avec succès, mais des erreurs de validation empêchent son exécution."
+  },
+  "SkeletonLoader": {
+    "Loading": "En cours de chargement..."
+  },
+  "CopyClipboard": {
+    "Copied": "Copié"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Rien à afficher pour l'instant ",
+      "Subhead": "Veuillez d'abord ajouter des données"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Chat démarré: {0} par",
+        "EndDate": "Chat terminé: {0} par"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "En cours de chargement"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Erreur",
+      "Default": "Info-bulle"
+    }
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Merci de sélectionner la valeur dans la liste",
+      "SelectionWindowMessage": "Merci de sélectionner une valeur dans la liste ou rechercher à l'aide de la fenêtre de recherche"
+    },
+    "Required": {
+      "Message": "Saisir une valeur"
+    },
+    "MaxLength": {
+      "Message": "Longueur maximale du texte dépassée ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Longueur de texte minimale non atteinte ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Format de date et d'heure non valide"
+    },
+    "DatePickerSyntax": {
+      "Message": "Format de date invalide"
+    },
+    "TimePickerSyntax": {
+      "Message": "Format d'heure non valide"
+    },
+    "RegExp": {
+      "Message": "Format de valeur invalide"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Le code doit commencer par le préfixe \"{{schemaNamePrefix}}\"",
+      "OnlySchemaNamePrefixMessage": "Entrez au moins un symbole de plus."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Utilisez des symboles : a-z, A-Z, 0-9, tiret bas ou tiret. Seules les lettres peuvent être en premier."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "La valeur '{{controlValue}}' existe déjà dans la colonne 'Code'."
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Colonne supprimée",
+    "ValidationErrorMessageSingleErrorField": "Champ: {0}. Erreur: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Champs : {0}. Erreur: {1}",
+    "RefreshModelDataConflict": "Creatio a de nouvelles données pour la page en cours. Pour les visualiser, enregistrez ou annulez vos modifications et actualisez la page.",
+    "WarningModelsWithCircularDependencies": "Certains modèles disposent de dépendances circulaires et n'ont pas été chargés",
+    "LoadingModelErrorMessage": "Une erreur s'est produite lors de l'exécution de la requête"
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Les données ont été actualisées"
+  }
+}
