@@ -16,3 +16,4 @@ C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtCalend
 C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtCalendar\Files\obj\Release\CrtCalendar.csproj.CoreCompileInputs.cache
 C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtCalendar\Files\obj\Release\CrtCalendar.dll
 C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtCalendar\Files\obj\Release\CrtCalendar.pdb
+C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtCalendar\Files\obj\Release\CrtCalendar.sourcelink.json

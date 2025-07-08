@@ -16,3 +16,4 @@ C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtUIPlat
 C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtUIPlatform7x\Files\obj\Release\CrtUIPlatform7x.csproj.CoreCompileInputs.cache
 C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtUIPlatform7x\Files\obj\Release\CrtUIPlatform7x.dll
 C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtUIPlatform7x\Files\obj\Release\CrtUIPlatform7x.pdb
+C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtUIPlatform7x\Files\obj\Release\CrtUIPlatform7x.sourcelink.json

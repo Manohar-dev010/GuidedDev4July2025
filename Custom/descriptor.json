@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "a00051f4-cde3-4f3f-b08e-c5ad1a5c735a",
     "Name": "Custom",
-    "ModifiedOnUtc": "\/Date(1751635148000)\/",
+    "ModifiedOnUtc": "\/Date(1751967251000)\/",
     "Maintainer": "Customer",
     "Description": "Custom Package",
     "DependsOn": [
@@ -12,10 +12,22 @@
         "Name": "ML"
       },
       {
+        "UId": "01204aad-6bd9-1e6a-387d-e1f2a0a2a898",
+        "Name": "CrtEmailMessage",
+        "Type": 1
+      },
+      {
         "UId": "012e2e14-082b-ac2b-da5a-2fc87bad41d4",
         "PackageVersion": "7.8.0",
         "Name": "CrtCore",
         "Type": 1
+      },
+      {
+        "UId": "016b1832-0aa2-d2cf-cf9f-5ad4d6767b7a",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtCustomerInfoInCaseMgmt",
+        "Type": 1,
+        "InstallBehavior": 1
       },
       {
         "UId": "02947595-4670-48e3-80ea-f278e3c9391c",
@@ -73,6 +85,12 @@
         "UId": "0d13113a-287e-c0ff-f4f6-cf9ec5dddf35",
         "PackageVersion": "7.8.0",
         "Name": "CrtESN"
+      },
+      {
+        "UId": "0daea9e4-b08a-abb1-687e-7dc834448743",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtCase7x",
+        "Type": 1
       },
       {
         "UId": "0fbe5e70-0ba1-4c52-b35d-ca1c4a3acde7",
@@ -187,9 +205,20 @@
         "Name": "MLSequencePrediction"
       },
       {
+        "UId": "327ca44a-4a20-4329-97f5-4f99d6054ba1",
+        "Name": "PclWFM",
+        "Type": 1
+      },
+      {
         "UId": "32986af5-84d9-4842-854e-9e8187522253",
         "PackageVersion": "7.8.0",
         "Name": "LinkPreview"
+      },
+      {
+        "UId": "335c46ac-da94-33b1-a9b5-03a3f3644fe8",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtCaseService",
+        "Type": 1
       },
       {
         "UId": "36c1a9a5-2dde-4fff-a39a-d2fadcab5bd4",
@@ -253,6 +282,12 @@
         "Type": 1
       },
       {
+        "UId": "41e882f0-2560-257b-a881-a619d3f2584c",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtCaseService7x",
+        "Type": 1
+      },
+      {
         "UId": "422cc048-65aa-8f90-e8ed-7fa6d5ab06b1",
         "PackageVersion": "7.8.0",
         "Name": "CrtNUI"
@@ -263,9 +298,21 @@
         "Name": "CrtDeduplication"
       },
       {
+        "UId": "43d663d1-6ab9-4369-903c-f804cacc55e4",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtCaseManagementApp",
+        "Type": 1
+      },
+      {
         "UId": "468413c6-da9a-4bae-a3e9-31456fea166d",
         "PackageVersion": "7.8.0",
         "Name": "EmailMining"
+      },
+      {
+        "UId": "4e73fa03-93ef-4f81-12f9-2182efad1e2a",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtJunkFilter",
+        "Type": 1
       },
       {
         "UId": "4e9b7aff-71f7-46eb-bad9-60cfdc0a54c2",
@@ -324,6 +371,12 @@
         "Name": "ProcessLibrary"
       },
       {
+        "UId": "5ef9db41-8594-97d1-ab9d-8ca7106e5e53",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtCaseManagement",
+        "Type": 1
+      },
+      {
         "UId": "5f6efbbc-f133-6106-e2e7-9ac0dd11af97",
         "PackageVersion": "7.8.0",
         "Name": "CrtSecurity",
@@ -344,6 +397,19 @@
         "PackageVersion": "7.8.0",
         "Name": "CalendarBase",
         "Type": 1
+      },
+      {
+        "UId": "68cc6c19-a608-8ca9-caa4-c3ceb523cf76",
+        "PackageVersion": "7.8.0",
+        "Name": "MLSimilarCaseSearch",
+        "Type": 1
+      },
+      {
+        "UId": "6e2a4410-5e7e-5aa2-87cc-bc9ee01147e0",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtCasesInChats",
+        "Type": 1,
+        "InstallBehavior": 1
       },
       {
         "UId": "6f46362b-0d60-47d7-b211-fc5e4117aecb",
@@ -432,9 +498,21 @@
         "Name": "Mobile"
       },
       {
+        "UId": "7f44885b-2fe5-7785-469d-4606220c1f6a",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtCaseCopilot"
+      },
+      {
         "UId": "7f8469ff-cb9b-40f6-a5f5-6aa3ddded07a",
         "PackageVersion": "7.8.0",
         "Name": "HomePage"
+      },
+      {
+        "UId": "8073e9c8-edb1-3d73-2e54-55b005de61ec",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtSLAInC360",
+        "Type": 1,
+        "InstallBehavior": 1
       },
       {
         "UId": "808f1684-de0a-e148-c331-2ace1df619de",
@@ -452,6 +530,12 @@
         "UId": "82306a23-d5c6-420b-b81b-2d145f8e2f34",
         "PackageVersion": "7.8.0",
         "Name": "SSP"
+      },
+      {
+        "UId": "83b1062a-d944-eba7-a72b-5400034c6223",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtCaseManagmentObject",
+        "Type": 1
       },
       {
         "UId": "864d1545-a641-46c3-b866-e57bd6d39579",
@@ -559,6 +643,12 @@
         "Name": "OAuth20"
       },
       {
+        "UId": "9fa04b54-93d6-cb1c-5c0c-4121c5f72c91",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtPortal",
+        "Type": 1
+      },
+      {
         "UId": "a09b5b3e-2464-ecbe-9993-0cd15f7efc80",
         "PackageVersion": "7.8.0",
         "Name": "XSSProtection",
@@ -661,6 +751,13 @@
         "Type": 1
       },
       {
+        "UId": "b8b21e51-9f46-5ec8-7c53-32cbd8b5c6c1",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtCasesInC360",
+        "Type": 1,
+        "InstallBehavior": 1
+      },
+      {
         "UId": "b8bc60f4-5aef-4760-bd1b-57d7cbc48143",
         "PackageVersion": "7.8.0",
         "Name": "Base_ENU"
@@ -679,6 +776,12 @@
         "UId": "bb1e143e-f3ee-4316-9450-851ddd02d999",
         "PackageVersion": "7.8.0",
         "Name": "LDAP"
+      },
+      {
+        "UId": "bda2916d-1b8a-1fa2-ab37-43798c48146f",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtSLMITILService",
+        "Type": 1
       },
       {
         "UId": "c1a044a2-cb8c-9387-837b-d9ae9183cd47",
@@ -778,6 +881,12 @@
         "Name": "CrtWizards7x"
       },
       {
+        "UId": "e91fc624-f834-474b-a0ac-875f8b399332",
+        "PackageVersion": "7.8.0",
+        "Name": "MLCaseClassification",
+        "Type": 1
+      },
+      {
         "UId": "eb74c841-b4d1-4bf3-a489-300c0a0f7133",
         "PackageVersion": "7.8.0",
         "Name": "KnowledgeBase"
@@ -786,6 +895,18 @@
         "UId": "eeed3091-51d9-472d-be26-eca02cd3a7d1",
         "PackageVersion": "7.8.0",
         "Name": "Reports"
+      },
+      {
+        "UId": "f0fa2639-5fd1-6e6b-12ee-665460964056",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtSLM7x",
+        "Type": 1
+      },
+      {
+        "UId": "f129f46d-d9a7-1aac-bc40-5626f9c428da",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtSLMITILService7x",
+        "Type": 1
       },
       {
         "UId": "f21b418a-13a5-99a7-f4b8-ab8b88e5ce61",
@@ -834,6 +955,12 @@
         "UId": "fe1effeb-74f2-42c5-b5e1-dfe0313b86bf",
         "PackageVersion": "7.8.0",
         "Name": "Studio"
+      },
+      {
+        "UId": "ff2cadfe-f4c2-06cd-930f-1401ae848c21",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtSLM",
+        "Type": 1
       }
     ]
   }

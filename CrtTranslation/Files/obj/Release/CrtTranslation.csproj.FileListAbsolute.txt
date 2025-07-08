@@ -16,3 +16,4 @@ C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtTransl
 C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtTranslation\Files\obj\Release\CrtTranslation.csproj.CoreCompileInputs.cache
 C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtTranslation\Files\obj\Release\CrtTranslation.dll
 C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtTranslation\Files\obj\Release\CrtTranslation.pdb
+C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtTranslation\Files\obj\Release\CrtTranslation.sourcelink.json

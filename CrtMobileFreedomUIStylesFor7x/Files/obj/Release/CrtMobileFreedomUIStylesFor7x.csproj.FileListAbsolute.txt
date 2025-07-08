@@ -16,3 +16,4 @@ C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtMobile
 C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtMobileFreedomUIStylesFor7x\Files\obj\Release\CrtMobileFreedomUIStylesFor7x.csproj.CoreCompileInputs.cache
 C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtMobileFreedomUIStylesFor7x\Files\obj\Release\CrtMobileFreedomUIStylesFor7x.dll
 C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtMobileFreedomUIStylesFor7x\Files\obj\Release\CrtMobileFreedomUIStylesFor7x.pdb
+C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtMobileFreedomUIStylesFor7x\Files\obj\Release\CrtMobileFreedomUIStylesFor7x.sourcelink.json

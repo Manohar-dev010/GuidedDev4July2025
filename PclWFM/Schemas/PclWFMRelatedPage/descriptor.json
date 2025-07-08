@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "c616fd9a-3494-4adf-8f70-0c4896624016",
+    "Name": "PclWFMRelatedPage",
+    "ModifiedOnUtc": "\/Date(1751967255000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "WFM (Page settings)",
+    "DependsOn": []
+  }
+}

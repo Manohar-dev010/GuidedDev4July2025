@@ -1,0 +1,10 @@
+C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtSLM\Files\Bin\CrtSLM.dll
+C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtSLM\Files\Bin\CrtSLM.pdb
+C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtSLM\Files\obj\Release\CrtSLM.csproj.AssemblyReference.cache
+C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtSLM\Files\obj\Release\CrtSLM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtSLM\Files\obj\Release\CrtSLM.AssemblyInfoInputs.cache
+C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtSLM\Files\obj\Release\CrtSLM.AssemblyInfo.cs
+C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtSLM\Files\obj\Release\CrtSLM.csproj.CoreCompileInputs.cache
+C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtSLM\Files\obj\Release\CrtSLM.sourcelink.json
+C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtSLM\Files\obj\Release\CrtSLM.dll
+C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtSLM\Files\obj\Release\CrtSLM.pdb

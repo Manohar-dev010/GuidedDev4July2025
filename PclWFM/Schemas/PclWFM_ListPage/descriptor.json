@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "24e2f1ba-d16f-4a1f-b38f-f91279d9382a",
+    "Name": "PclWFM_ListPage",
+    "ModifiedOnUtc": "\/Date(1751967255000)\/",
+    "Parent": {
+      "UId": "b7b898d0-8c77-4953-c097-23fa6800da02",
+      "Name": "ListPageV3Template"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "WFM list page",
+    "DependsOn": []
+  }
+}

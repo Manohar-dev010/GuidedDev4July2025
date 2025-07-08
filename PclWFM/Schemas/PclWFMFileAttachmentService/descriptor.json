@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "c4dd2472-103b-4e39-9b6b-f9a38ca6641d",
+    "Name": "PclWFMFileAttachmentService",
+    "ModifiedOnUtc": "\/Date(1751967922000)\/",
+    "ManagerName": "SourceCodeSchemaManager",
+    "Caption": "WFMFileRequest",
+    "DependsOn": []
+  }
+}

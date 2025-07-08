@@ -124,9 +124,6 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="Terrasoft.Configuration">
-			<HintPath>..\..\..\bin\Terrasoft.Configuration.dll</HintPath>
-		</Reference>
 		<Reference Include="Terrasoft.IO">
 			<HintPath>$(CoreLibPath)/Terrasoft.IO.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>

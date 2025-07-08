@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CrtDataForge")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+024cfadc4b30cf1aeb84035a1812a191f7793dc6")]
 [assembly: System.Reflection.AssemblyProductAttribute("CrtDataForge")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CrtDataForge")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

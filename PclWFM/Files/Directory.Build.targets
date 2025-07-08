@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/PclWFM/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/PclWFM/Data/**" />
+		<Compile Remove="$(PkgPath)/PclWFM/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/PclWFM/Schemas\**" />
+		<Compile Remove="$(PkgPath)/PclWFM/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/PclWFM/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/PclWFM/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/PclWFM/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/PclWFM/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/PclWFM/Resources/**" />
+		<None Remove="$(PkgPath)/PclWFM/Assemblies/**" />
+		<None Remove="$(PkgPath)/PclWFM/Data/**" />
+		<None Remove="$(PkgPath)/PclWFM/SqlScripts/**" />
+		<None Remove="$(PkgPath)/PclWFM/Schemas/**" />
+		<None Remove="$(PkgPath)/PclWFM/Resources/**" />
+  </ItemGroup>
+</Project>

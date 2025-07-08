@@ -22,116 +22,6 @@
 			},
 			{
 				"operation": "merge",
-				"name": "LeftFilterContainer",
-				"values": {
-					"wrap": "wrap",
-					"padding": {
-						"top": "none",
-						"right": "none",
-						"bottom": "none",
-						"left": "large"
-					},
-					"alignItems": "center"
-				}
-			},
-			{
-				"operation": "remove",
-				"name": "LeftFilterContainerInner"
-			},
-			{
-				"operation": "move",
-				"name": "FolderTreeActions",
-				"parentName": "LeftFilterContainer",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "merge",
-				"name": "LookupQuickFilterByTag",
-				"values": {
-					"config": {
-						"caption": "#ResourceString(LookupQuickFilterByTag_config_caption)#",
-						"hint": "#ResourceString(LookupQuickFilterByTag_config_hint)#",
-						"icon": "tag-icon",
-						"iconPosition": "left-icon",
-						"entitySchemaName": "ContactTag"
-					},
-					"_filterOptions": {
-						"expose": [
-							{
-								"attribute": "LookupQuickFilterByTag_Items",
-								"converters": [
-									{
-										"converter": "crt.QuickFilterAttributeConverter",
-										"args": [
-											{
-												"target": {
-													"viewAttributeName": "Items",
-													"filterColumn": "[ContactInTag:Entity].Tag"
-												},
-												"quickFilterType": "lookup"
-											}
-										]
-									}
-								]
-							}
-						],
-						"from": "LookupQuickFilterByTag_Value"
-					}
-				}
-			},
-			{
-				"operation": "move",
-				"name": "LookupQuickFilterByTag",
-				"parentName": "LeftFilterContainer",
-				"propertyName": "items",
-				"index": 1
-			},
-			{
-				"operation": "move",
-				"name": "SearchFilter",
-				"parentName": "LeftFilterContainer",
-				"propertyName": "items",
-				"index": 2
-			},
-			{
-				"operation": "merge",
-				"name": "SearchFilter",
-				"values": {
-					"layoutConfig": {}
-				}
-			},
-			{
-				"operation": "merge",
-				"name": "FolderTree",
-				"values": {
-					"sourceSchemaName": "ContactFolder",
-					"_filterOptions": {
-						"expose": [
-							{
-								"attribute": "FolderTree_active_folder_filter",
-								"converters": [
-									{
-										"converter": "crt.FolderTreeActiveFilterAttributeConverter",
-										"args": [
-											"Contact"
-										]
-									}
-								]
-							}
-						],
-						"from": [
-							"FolderTree_items",
-							"FolderTree_favoriteItems",
-							"FolderTree_active_folder_id"
-						]
-					},
-					"rootSchemaName": "Contact",
-					"borderRadius": "none"
-				}
-			},
-			{
-				"operation": "merge",
 				"name": "SectionContentWrapper",
 				"values": {
 					"direction": "row",
@@ -211,8 +101,11 @@
 						}
 					],
 					"layoutConfig": {
-						"basis": "100%"
+						"basis": "100%",
+						"width": 300
 					},
+					"primaryColumnName": "PDS_Id",
+					"sorting": "$ItemsSorting | crt.ToDataTableSortingConfig: 'Items'",
 					"selectionState": "$DataTable_SelectionState",
 					"_selectionOptions": {
 						"attribute": "DataTable_SelectionState"
@@ -238,6 +131,200 @@
 				"parentName": "ActionButton",
 				"propertyName": "menuItems",
 				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "MainFilterContainer",
+				"values": {
+					"type": "crt.GridContainer",
+					"columns": [
+						"minmax(32px, 1fr)",
+						"minmax(32px, 1fr)"
+					],
+					"rows": "minmax(max-content, 32px)",
+					"gap": {
+						"columnGap": "medium",
+						"rowGap": "none"
+					},
+					"items": [],
+					"color": "primary",
+					"borderRadius": "none",
+					"padding": {
+						"top": "small",
+						"right": "none",
+						"bottom": "none",
+						"left": "none"
+					},
+					"fitContent": true
+				},
+				"parentName": "MainContainer",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "LeftFilterContainer",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 1,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.FlexContainer",
+					"direction": "row",
+					"items": [],
+					"color": "transparent",
+					"borderRadius": "none",
+					"padding": {
+						"top": "none",
+						"right": "none",
+						"bottom": "none",
+						"left": "large"
+					},
+					"justifyContent": "start",
+					"gap": "medium",
+					"alignItems": "center"
+				},
+				"parentName": "MainFilterContainer",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "FolderTreeActions",
+				"values": {
+					"type": "crt.FolderTreeActions",
+					"folderTree": "FolderTree"
+				},
+				"parentName": "LeftFilterContainer",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "RightFilterContainer",
+				"values": {
+					"layoutConfig": {
+						"column": 2,
+						"row": 1,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.FlexContainer",
+					"direction": "row",
+					"items": [],
+					"color": "transparent",
+					"borderRadius": "none",
+					"padding": {
+						"top": "none",
+						"right": "medium",
+						"bottom": "none",
+						"left": "none"
+					},
+					"justifyContent": "end",
+					"gap": "medium",
+					"alignItems": "center"
+				},
+				"parentName": "MainFilterContainer",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "SearchFilter",
+				"values": {
+					"type": "crt.SearchFilter",
+					"placeholder": "#ResourceString(SearchFilter_placeholder)#",
+					"layoutConfig": {},
+					"_filterOptions": {
+						"expose": [
+							{
+								"attribute": "SearchFilter_Items",
+								"converters": [
+									{
+										"converter": "crt.SearchFilterAttributeConverter",
+										"args": [
+											"Items"
+										]
+									}
+								]
+							}
+						],
+						"from": [
+							"SearchFilter_SearchValue",
+							"SearchFilter_FilteredColumnsGroups"
+						]
+					}
+				},
+				"parentName": "RightFilterContainer",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "RefreshButton",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(RefreshButtonCaption)#",
+					"color": "default",
+					"disabled": false,
+					"size": "medium",
+					"clicked": {
+						"request": "crt.LoadDataRequest",
+						"params": {
+							"config": {
+								"loadType": "reload"
+							},
+							"dataSourceName": "PDS"
+						}
+					},
+					"iconPosition": "only-icon",
+					"icon": "reload-button-icon",
+					"clickMode": "default"
+				},
+				"parentName": "RightFilterContainer",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "FolderTree",
+				"values": {
+					"type": "crt.FolderTree",
+					"sourceSchemaName": "ContactFolder",
+					"rootSchemaName": "Contact",
+					"layoutConfig": {
+						"width": 328.125
+					},
+					"classes": [
+						"section-folder-tree"
+					],
+					"_filterOptions": {
+						"expose": [
+							{
+								"attribute": "FolderTree_active_folder_filter",
+								"converters": [
+									{
+										"converter": "crt.FolderTreeActiveFilterAttributeConverter",
+										"args": [
+											"Contact"
+										]
+									}
+								]
+							}
+						],
+						"from": [
+							"FolderTree_items",
+							"FolderTree_favoriteItems",
+							"FolderTree_active_folder_id"
+						]
+					},
+					"borderRadius": "none"
+				},
+				"parentName": "SectionContentWrapper",
+				"propertyName": "items",
+				"index": 0
 			},
 			{
 				"operation": "insert",
@@ -321,25 +408,136 @@
 				"parentName": "DataTable",
 				"propertyName": "bulkActions",
 				"index": 2
-			},
-			{
-				"operation": "merge",
-				"name": "Dashboards",
-				"values": {
-					"_designOptions": {
-						"entitySchemaName": "Contact",
-						"dependencies": [
-							{
-								"attributePath": "Id",
-								"relationPath": "PDS.Id"
-							}
-						],
-						"filters": []
-					}
-				}
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[
+			{
+				"operation": "merge",
+				"path": [
+					"attributes"
+				],
+				"values": {
+					"ItemsSorting": {},
+					"FolderTree_visible": {
+						"value": false
+					},
+					"FolderTree_items": {
+						"isCollection": true,
+						"viewModelConfig": {
+							"attributes": {
+								"Id": {
+									"modelConfig": {
+										"path": "FolderTree_items_DS.Id"
+									}
+								},
+								"Name": {
+									"modelConfig": {
+										"path": "FolderTree_items_DS.Name"
+									}
+								},
+								"ParentId": {
+									"modelConfig": {
+										"path": "FolderTree_items_DS.Parent.Id"
+									}
+								},
+								"FilterData": {
+									"modelConfig": {
+										"path": "FolderTree_items_DS.SearchData"
+									}
+								}
+							}
+						},
+						"modelConfig": {
+							"path": "FolderTree_items_DS",
+							"filterAttributes": [
+								{
+									"name": "FolderTree_items_DS_filter",
+									"loadOnChange": true
+								}
+							]
+						},
+						"embeddedModel": {
+							"config": {
+								"type": "crt.EntityDataSource",
+								"config": {
+									"entitySchemaName": "ContactFolder"
+								}
+							},
+							"name": "FolderTree_items_DS"
+						}
+					},
+					"FolderTree_active_folder_id": {},
+					"FolderTree_active_folder_name": {},
+					"FolderTree_active_folder_filter": {
+						"value": {}
+					},
+					"FolderTree_items_DS_filter": {
+						"value": {
+							"isEnabled": true,
+							"trimDateTimeParameterToDate": false,
+							"filterType": 6,
+							"logicalOperation": 0,
+							"items": {
+								"3714ebf4-41a3-9a82-8e8b-039d9ac03ce1": {
+									"isEnabled": true,
+									"trimDateTimeParameterToDate": false,
+									"filterType": 1,
+									"comparisonType": 3,
+									"leftExpression": {
+										"expressionType": 0,
+										"columnPath": "EntitySchemaName"
+									},
+									"rightExpression": {
+										"expressionType": 2,
+										"parameter": {
+											"dataValueType": 1,
+											"value": "Contact"
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			},
+			{
+				"operation": "merge",
+				"path": [
+					"attributes",
+					"Items"
+				],
+				"values": {
+					"modelConfig": {
+						"path": "PDS",
+						"pagingConfig": {
+							"rowCount": 30
+						},
+						"sortingConfig": {
+							"attributeName": "ItemsSorting",
+							"default": [
+								{
+									"direction": "asc",
+									"columnName": "Phone"
+								}
+							]
+						},
+						"filterAttributes": [
+							{
+								"loadOnChange": true,
+								"name": "FolderTree_active_folder_filter"
+							},
+							{
+								"name": "Items_PredefinedFilter",
+								"loadOnChange": true
+							},
+							{
+								"name": "SearchFilter_Items",
+								"loadOnChange": true
+							}
+						]
+					}
+				}
+			},
 			{
 				"operation": "merge",
 				"path": [
@@ -383,86 +581,51 @@
 						"modelConfig": {
 							"path": "PDS.BirthDate"
 						}
+					},
+					"PDS_Id": {
+						"modelConfig": {
+							"path": "PDS.Id"
+						}
 					}
-				}
-			},
-			{
-				"operation": "merge",
-				"path": [
-					"attributes",
-					"Items",
-					"modelConfig"
-				],
-				"values": {
-					"filterAttributes": [
-						{
-							"loadOnChange": true,
-							"name": "FolderTree_active_folder_filter"
-						},
-						{
-							"name": "Items_PredefinedFilter",
-							"loadOnChange": true
-						},
-						{
-							"name": "SearchFilter_Items",
-							"loadOnChange": true
-						},
-						{
-							"name": "LookupQuickFilterByTag_Items",
-							"loadOnChange": true
-						}
-					]
-				}
-			},
-			{
-				"operation": "merge",
-				"path": [
-					"attributes",
-					"Items",
-					"modelConfig",
-					"sortingConfig"
-				],
-				"values": {
-					"default": [
-						{
-							"direction": "asc",
-							"columnName": "Phone"
-						}
-					]
 				}
 			}
 		]/**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/,
 		modelConfigDiff: /**SCHEMA_MODEL_CONFIG_DIFF*/[
 			{
 				"operation": "merge",
-				"path": [
-					"dataSources",
-					"PDS",
-					"config"
-				],
+				"path": [],
 				"values": {
-					"entitySchemaName": "Contact",
-					"attributes": {
-						"Name": {
-							"path": "Name"
-						},
-						"Type": {
-							"path": "Type"
-						},
-						"Account": {
-							"path": "Account"
-						},
-						"MobilePhone": {
-							"path": "MobilePhone"
-						},
-						"Email": {
-							"path": "Email"
-						},
-						"Country": {
-							"path": "Country"
-						},
-						"BirthDate": {
-							"path": "BirthDate"
+					"dataSources": {
+						"PDS": {
+							"type": "crt.EntityDataSource",
+							"hiddenInPageDesigner": true,
+							"config": {
+								"entitySchemaName": "Contact",
+								"attributes": {
+									"Name": {
+										"path": "Name"
+									},
+									"Type": {
+										"path": "Type"
+									},
+									"Account": {
+										"path": "Account"
+									},
+									"MobilePhone": {
+										"path": "MobilePhone"
+									},
+									"Email": {
+										"path": "Email"
+									},
+									"Country": {
+										"path": "Country"
+									},
+									"BirthDate": {
+										"path": "BirthDate"
+									}
+								}
+							},
+							"scope": "viewElement"
 						}
 					}
 				}

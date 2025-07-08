@@ -885,25 +885,9 @@
 				"values": {
 					"type": "crt.SearchFilter",
 					"placeholder": "#ResourceString(AddressSearchFilter_placeholder)#",
-					"_filterOptions": {
-						"expose": [
-							{
-								"attribute": "AddressSearchFilter_AddressList",
-								"converters": [
-									{
-										"converter": "crt.SearchFilterAttributeConverter",
-										"args": [
-											"AddressList"
-										]
-									}
-								]
-							}
-						],
-						"from": [
-							"AddressSearchFilter_SearchValue",
-							"AddressSearchFilter_FilteredColumnsGroups"
-						]
-					},
+					"targetAttributes": [
+						"AddressList"
+					],
 					"iconOnly": true
 				},
 				"parentName": "AddressToolsFlexContainer",
@@ -1184,25 +1168,9 @@
 				"values": {
 					"type": "crt.SearchFilter",
 					"placeholder": "#ResourceString(ContactsSearchFilter_placeholder)#",
-					"_filterOptions": {
-						"expose": [
-							{
-								"attribute": "ContactsSearchFilter_ContactsList",
-								"converters": [
-									{
-										"converter": "crt.SearchFilterAttributeConverter",
-										"args": [
-											"ContactsList"
-										]
-									}
-								]
-							}
-						],
-						"from": [
-							"ContactsSearchFilter_SearchValue",
-							"ContactsSearchFilter_FilteredColumnsGroups"
-						]
-					},
+					"targetAttributes": [
+						"ContactsList"
+					],
 					"iconOnly": true
 				},
 				"parentName": "ContactsToolsFlexContainer",
@@ -1629,10 +1597,6 @@
 								{
 									"name": "AddressList_PredefinedFilter",
 									"loadOnChange": true
-								},
-								{
-									"name": "AddressSearchFilter_AddressList",
-									"loadOnChange": true
 								}
 							]
 						},
@@ -1668,10 +1632,6 @@
 							"filterAttributes": [
 								{
 									"name": "ContactsList_PredefinedFilter",
-									"loadOnChange": true
-								},
-								{
-									"name": "ContactsSearchFilter_ContactsList",
 									"loadOnChange": true
 								}
 							]

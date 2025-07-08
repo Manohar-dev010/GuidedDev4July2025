@@ -1,0 +1,10 @@
+C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtCaseManagementApp\Files\Bin\CrtCaseManagementApp.dll
+C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtCaseManagementApp\Files\Bin\CrtCaseManagementApp.pdb
+C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtCaseManagementApp\Files\obj\Release\CrtCaseManagementApp.csproj.AssemblyReference.cache
+C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtCaseManagementApp\Files\obj\Release\CrtCaseManagementApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtCaseManagementApp\Files\obj\Release\CrtCaseManagementApp.AssemblyInfoInputs.cache
+C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtCaseManagementApp\Files\obj\Release\CrtCaseManagementApp.AssemblyInfo.cs
+C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtCaseManagementApp\Files\obj\Release\CrtCaseManagementApp.csproj.CoreCompileInputs.cache
+C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtCaseManagementApp\Files\obj\Release\CrtCaseManagementApp.sourcelink.json
+C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtCaseManagementApp\Files\obj\Release\CrtCaseManagementApp.dll
+C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtCaseManagementApp\Files\obj\Release\CrtCaseManagementApp.pdb

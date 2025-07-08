@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CrtSmsIntegration")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("8.3.0.3031")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("8.3.0.3031")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("8.3.0.3031+024cfadc4b30cf1aeb84035a1812a191f7793dc6")]
 [assembly: System.Reflection.AssemblyProductAttribute("CrtSmsIntegration")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CrtSmsIntegration")]
 [assembly: System.Reflection.AssemblyVersionAttribute("8.3.0.3031")]

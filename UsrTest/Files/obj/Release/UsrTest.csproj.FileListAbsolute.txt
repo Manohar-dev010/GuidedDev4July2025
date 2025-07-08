@@ -1,0 +1,10 @@
+C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrTest\Files\Bin\UsrTest.dll
+C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrTest\Files\Bin\UsrTest.pdb
+C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrTest\Files\obj\Release\UsrTest.csproj.AssemblyReference.cache
+C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrTest\Files\obj\Release\UsrTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrTest\Files\obj\Release\UsrTest.AssemblyInfoInputs.cache
+C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrTest\Files\obj\Release\UsrTest.AssemblyInfo.cs
+C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrTest\Files\obj\Release\UsrTest.csproj.CoreCompileInputs.cache
+C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrTest\Files\obj\Release\UsrTest.sourcelink.json
+C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrTest\Files\obj\Release\UsrTest.dll
+C:\Academy\Builds\UsrDev4\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrTest\Files\obj\Release\UsrTest.pdb

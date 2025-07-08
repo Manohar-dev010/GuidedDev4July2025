@@ -10,7 +10,7 @@
     "HelpLink":  "",
     "OrderLink":  "",
     "SupportEmail":  "",
-    "Version":  "1.12.21",
+    "Version":  "1.11.5",
     "Packages":  [
                      {
                          "UId":  "2ecba2bd-b810-47a5-a1b1-08c888529d6c",
@@ -27,10 +27,6 @@
                      {
                          "UId":  "c1a044a2-cb8c-9387-837b-d9ae9183cd47",
                          "Name":  "CrtCustomer360AI"
-                     },
-                     {
-                         "UId":  "a7d24489-950a-fa76-9ef1-0aa27d798580",
-                         "Name":  "CrtApolloInC360"
                      }
                  ]
 }

@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "e9a7257e-4c28-49f8-b485-11c229254893",
+    "Name": "PclWFMData",
+    "ModifiedOnUtc": "\/Date(1751967873000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "WFM data",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="WFM data" />
+			<Item Name="Columns.PclName.Caption" Value="Name" />
+			<Item Name="Columns.PclSubmissionlD.Caption" Value="Submission lD" />
+			<Item Name="Columns.PclWFMLK.Caption" Value="WFM LK" />
+			<Item Name="Columns.PclWorkType.Caption" Value="Work type" />
+		</Items>
+	</Group>
+</Resources>

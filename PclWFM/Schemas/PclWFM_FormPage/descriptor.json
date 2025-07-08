@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "68247870-b53e-4ecb-aa0d-f816f1351135",
+    "Name": "PclWFM_FormPage",
+    "ModifiedOnUtc": "\/Date(1751967255000)\/",
+    "Parent": {
+      "UId": "3b2e117f-8c6b-4ca5-80a2-7ebb497cddf9",
+      "Name": "PageWithTabsFreedomTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "WFM form page",
+    "DependsOn": []
+  }
+}

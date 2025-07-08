@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CrtCalendar")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+024cfadc4b30cf1aeb84035a1812a191f7793dc6")]
 [assembly: System.Reflection.AssemblyProductAttribute("CrtCalendar")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CrtCalendar")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

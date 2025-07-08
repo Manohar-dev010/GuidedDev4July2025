@@ -1,0 +1,6 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/PclWFM/Schemas/PclWFM/PclWFM.cs" Condition="Exists('$(PkgPath)/PclWFM/Schemas/PclWFM/PclWFM.cs')" />
+		<Compile Include="$(PkgPath)/PclWFM/Schemas/PclWFMData/PclWFMData.cs" Condition="Exists('$(PkgPath)/PclWFM/Schemas/PclWFMData/PclWFMData.cs')" />
+	</ItemGroup>
+</Project>

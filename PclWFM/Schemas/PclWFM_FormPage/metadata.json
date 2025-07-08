@@ -1,0 +1,8 @@
+= MetaData.Schema.UId "68247870-b53e-4ecb-aa0d-f816f1351135"
+= MetaData.Schema.A2 "PclWFM_FormPage"
+= MetaData.Schema.A5 "6f71e54c-1960-40c9-94f6-073fd67699ab"
+~ MetaData.Schema.B2 ["5dac40d3-c60f-492b-b4c8-9f48215f15d4","f7eb3522-eb4f-4aa6-8985-1e66f3e58bc4","f9654f0d-3f5a-41c1-88e8-2c67a105186c","a22b8c28-7953-4b55-85fc-60d30185b319"]
+= MetaData.Schema.B6 "5530927f-22ea-e7c9-4ccf-506d3a6c2ed2"
+= MetaData.Schema.HD1 "3b2e117f-8c6b-4ca5-80a2-7ebb497cddf9"
+- MetaData.Schema.B7
++ MetaData.Schema.B7 false
